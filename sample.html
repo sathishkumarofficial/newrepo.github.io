@@ -1,0 +1,2440 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <title>15,000+ Free HTML Templates. HTML Website Templates</title>
+        <link rel="shortcut icon" href="//csite.nicepage.com/favicon.ico" type="image/x-icon">
+        <meta charset="utf-8" />
+        <meta name="Keywords" content="">
+        <meta name="Description" content="Free Download the biggest collection of HTML templates. HTML website template code. Freely use basic and simple HTML templates for your commercial or personal use.">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://nicepage.com/html-templates">
+        <meta property="og:title" content="15,000+ Free HTML Templates. HTML Website Templates">
+        <meta property="og:image" content="https://images01.nicepagecdn.com/page/61/74/html-template-6174999.jpg?version=3d0b520b-9b60-4fc0-9532-5d33e54a377c">
+                        <meta property="og:description" content="Free Download the biggest collection of HTML templates. HTML website template code. Freely use basic and simple HTML templates for your commercial or personal use.">
+        <meta property="og:site_name" content="Nicepage.com" />
+
+        
+
+        
+        
+                <link rel="alternate" hreflang="en" href="https://nicepage.com/html-templates">
+        <link rel="alternate" hreflang="de" href="https://nicepage.com/de/html-vorlagen">
+        <link rel="alternate" hreflang="nl" href="https://nicepage.com/nl/html-sjablonen">
+        <link rel="alternate" hreflang="fr" href="https://nicepage.com/fr/modeles-html">
+        <link rel="alternate" hreflang="it" href="https://nicepage.com/it/modelli-html">
+        <link rel="alternate" hreflang="es" href="https://nicepage.com/es/plantillas-html">
+        <link rel="alternate" hreflang="pl" href="https://nicepage.com/pl/szablony-html">
+        <link rel="alternate" hreflang="pt" href="https://nicepage.com/pt/modelos-html">
+        <link rel="alternate" hreflang="tr" href="https://nicepage.com/tr/html-sablonlari">
+        <link rel="alternate" hreflang="ru" href="https://nicepage.com/ru/html-shablony">
+        <link rel="alternate" hreflang="hu" href="https://nicepage.com/hu/html-sablonok">
+        <link rel="alternate" hreflang="cs" href="https://nicepage.com/cs/html-sablony">
+        <link rel="alternate" hreflang="sv" href="https://nicepage.com/sv/html-mallar">
+
+
+
+
+
+    <meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,user-scalable=no,width=device-width">
+
+
+<script src="//capp.nicepage.com/c6c07254c07c6280846382ad18c70ad7c70806e5/templates-page-libs.js" defer></script>
+<link href="//capp.nicepage.com/c6c07254c07c6280846382ad18c70ad7c70806e5/templates-page-libs.css" rel="stylesheet" />
+
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Open+Sans:200,300,400,700,800,900&amp;subset=latin" rel="preload" as="font" />
+
+
+
+
+
+<script>
+    window.isAuthenticated = 0;
+    window.useExternalGtmCode = 0;
+    window.clientUserId = 0;
+    window.clientUserName = '';
+    window.userCountryCode = '';
+    window.logPageEvent = 1;
+    window.userHasAdsParams = 1;
+    window.utmSourceFromReferrer = 1;
+    window.currentLang = '';
+    window.baseUrl = 'html-templates';
+    window.currentUrl = 'html-templates';
+    window.np_userId = '';
+    window.isAmplitudeInitialized = false;
+    window.sha256Email = '';
+
+    function getCookieOrLocalStorage(name) {
+        var nameEQ = name + "=";
+        var ca = document.cookie.split(';');
+        for (var i = 0; i < ca.length; i++) {
+            var c = ca[i];
+            while (c.charAt(0) == ' ') c = c.substring(1, c.length);
+            if (c.indexOf(nameEQ) == 0) {
+                return c.substring(nameEQ.length, c.length);
+            }
+        }
+        var lsValue = localStorage.getItem(name);
+        return !!lsValue;
+    }
+
+    function sendAnalyticsData(eventType, props, cb) {
+        var json = { data: {} };
+        json.userToken = np_userId;
+        json.data.adsParams = $.cookie('AdsParameters');
+        json.data.ga = $.cookie('_ga');
+        json.data.gac = $.cookie('_gac_UA-88868916-2');
+        json.data.userAgent = navigator.userAgent;
+        json.data.eventType = eventType;
+        json.data.props = props;
+        $.ajax({
+            'type': 'POST',
+            'url': '/Feedback/SendAdsLog',
+            'contentType': 'application/json; charset=utf-8',
+            'data': JSON.stringify(json),
+            'dataType': 'json',
+            'complete': cb || function() {}
+        });
+    }
+
+    function initializeAmplitudeUser() {
+        if (isAmplitudeInitialized) {
+            return;
+        }
+        isAmplitudeInitialized = true;
+
+        if (clientUserId > 0)
+        {
+            identifyAmplitudeUser(clientUserId, clientUserName);
+        }
+        else
+        {
+            identifyAmplitudeUser(null);
+        }
+    }
+
+    function sendAmplitudeAnalyticsData(eventName, eventProperties, userProperties, callback_function) {
+        initializeAmplitudeUser();
+
+        if (userProperties) {
+            if(userProperties.utm_source || userProperties.utm_campaign) {
+                var identify = new amplitude.Identify();
+                identify.setOnce("utm_campaign", userProperties.utm_campaign);
+                identify.setOnce("utm_source", userProperties.utm_source);
+                identify.setOnce("utm_content", userProperties.utm_content);
+                identify.setOnce("utm_group", userProperties.utm_group);
+                identify.setOnce("utm_term", userProperties.utm_term);
+                identify.setOnce("utm_page", userProperties.utm_page);
+                identify.setOnce("utm_page2", userProperties.utm_page);
+                identify.setOnce("referrer", userProperties.referrer);
+
+                amplitude.getInstance().identify(identify);
+
+                userProperties.utm_source_last = userProperties.utm_source;
+                userProperties.utm_campaign_last = userProperties.utm_campaign;
+                userProperties.utm_content_last = userProperties.utm_content;
+                userProperties.utm_group_last = userProperties.utm_group;
+                userProperties.utm_term_last = userProperties.utm_term;
+                userProperties.utm_page_last = userProperties.utm_page;
+            }
+
+            var userProps = objectWithoutProperties(userProperties, ["utm_campaign", "utm_source","utm_content", "utm_term", "utm_page", "utm_group", "referrer"]);
+            amplitude.getInstance().setUserProperties(userProps);
+        }
+
+        if (!eventProperties) {
+            eventProperties = {};
+        }
+
+        eventProperties.WebSite = 'true';
+        eventProperties.IsAuthenticated = window.isAuthenticated;
+        eventProperties.country_code = getCountryCode();
+        eventProperties.lang = window.currentLang || '';
+
+        var fullPageUrl = window.location.pathname.split('?')[0];
+        eventProperties.full_page_url = fullPageUrl;
+        eventProperties.page_url = clearPageUrl(fullPageUrl);
+
+        if (typeof callback_function === 'function') {
+            amplitude.getInstance().logEvent(eventName, eventProperties, callback_function);
+        } else {
+            amplitude.getInstance().logEvent(eventName, eventProperties);
+        }
+    }
+
+    function identifyAmplitudeUser(userId, token) {
+        if (userId) {
+            amplitude.getInstance().setUserProperties({
+                "Token": token,
+                "UserId": userId
+            });
+        }
+
+        var identify = new amplitude.Identify();
+        amplitude.getInstance().identify(identify);
+        if (userId) {
+            amplitude.getInstance().setUserId(userId);
+        }
+    }
+
+    function getUtmParamsFromUrl() {
+        var hash = window.location.hash;
+        var url = new URL(window.location.href);
+        if (hash && hash.indexOf('utm_') >= 0) {
+            url = new URL(window.location.origin + window.location.pathname + hash.replace('#', '?'));
+        }
+
+        if (!url.searchParams) {
+            return '';
+        }
+        return getUtmParams(url);
+    }
+
+    function hasGoogleIdFromUrl() {
+        var url = new URL(window.location.href);
+        if (!url.searchParams) {
+            return false;
+        }
+        return !!url.searchParams.get('gclid');
+    }
+
+    function sendAnalyticsFromUrl(referrer, pageType) {
+        var urlIsAvailable = typeof URL === "function" || (navigator.userAgent.indexOf('MSIE') !== -1 && typeof URL === 'object');
+        if (!urlIsAvailable) {
+            return;
+        }
+
+        var utmParams = getUtmParamsFromUrl();
+        if (!utmParams) {
+            return;
+        }
+
+        var gclidFromUrl = utmParams.gclid;
+        var utmParamsFromUrl = !!utmParams.utmSource || !!utmParams.utmCampaign || !!utmParams.gclid;
+        if (!utmParamsFromUrl && userHasAdsParams)
+        {
+            utmParams = getUtmParamsFromCookie();
+        }
+
+        var canLog = canLogToAmplitude();
+        if (utmParamsFromUrl || utmSourceFromReferrer) {
+            var fullPageUrl = window.location.pathname.split('?')[0];
+            var pageUrl = clearPageUrl(fullPageUrl);
+            var userProps = {
+                "utm_source": utmParams.utmSource,
+                "utm_campaign": utmParams.utmCampaign,
+                "utm_content": utmParams.utmContent,
+                "utm_group": utmParams.utmGroup,
+                "utm_term": utmParams.utmTerm,
+                "utm_page": getUtmPageValue(pageUrl),
+                "utm_lang": window.currentLang || '',
+                "referrer": referrer
+            };
+
+            if (gclidFromUrl) {
+                var landingUrl = pageUrl.startsWith('/') && pageUrl !== '/' ? pageUrl.substr(1) : pageUrl;
+                userProps.landing_page = landingUrl;
+
+                var event = {
+                    'Page': landingUrl,
+                    'Url': window.location.href,
+                    'utm_campaign_event': utmParams.utmCampaign,
+                    'utm_group_event': utmParams.utmGroup
+
+                }
+                sendAmplitudeAnalyticsData('Landing Page', event, userProps);
+            } else {
+                var eventProps = {
+                    "utm_source": utmParams.utmSource,
+                    "utm_campaign": utmParams.utmCampaign,
+                    "utm_content": utmParams.utmContent,
+                    "utm_group": utmParams.utmGroup,
+                    "utm_term": utmParams.utmTerm
+                };
+
+                if (utmParams.utmSource === "elastic") {
+                    sendAmplitudeAnalyticsData('Email Click', eventProps);
+                }
+
+                if (canLog) {
+                    sendAmplitudeAnalyticsData('Campaign', eventProps, userProps);
+                }
+            }
+        }
+
+        if (logPageEvent && canLog || (pageType === 'Pricing Page' && !window.isForbiddenCountry())) {
+            var pageEventProps = {
+                'type': pageType,
+                'accepted_country': isValidCountry(),
+                'force_log': !canLog
+            };
+
+            if (utmParams.gclid) {
+                pageEventProps.googleClickId = utmParams.gclid;
+            }
+
+            sendAmplitudeAnalyticsData('Page View', pageEventProps);
+        }
+    }
+
+    document.addEventListener('DOMContentLoaded', function () {
+        if (location.href.indexOf('/frame/') === -1 && window.location.href.indexOf('skipCookie') === -1) {
+            PureCookie.initCookieConsent();
+        }
+        setCountryCode('https://location.nicepagesrv.com/country');
+        setUserIdCookie();
+
+        var referrer = 'www.google.com';
+        var pageType = 'Templates Page';
+        sendAnalyticsFromUrl(referrer, pageType);
+    });
+</script>
+
+    <script>
+        // Define dataLayer and the gtag function.
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        var consentDefaultValue = 'granted';
+        gtag('consent', 'default', {
+            'ad_storage': consentDefaultValue,
+            'ad_user_data': consentDefaultValue,
+            'ad_personalization': consentDefaultValue,
+            'analytics_storage': consentDefaultValue
+        });
+        
+        if (hasGoogleIdFromUrl()) {
+            useExternalGtmCode = 1;
+        }
+    </script>
+    <!-- Google Tag Manager -->
+    <script>
+        if (useExternalGtmCode) {
+            (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://load.api9.nicepage.com/nldlswob.js?st='+i+dl+'';f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','W76XGFR');
+        } else {
+            (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-W76XGFR');
+        }
+    </script>
+    <!-- End Google Tag Manager -->
+
+<!-- Amplitude Code -->
+<script type="text/javascript">
+    (function(e,t){var n=e.amplitude||{_q:[],_iq:{}};var r=t.createElement("script")
+            ;r.type="text/javascript"
+            ;r.integrity="sha384-d/yhnowERvm+7eCU79T/bYjOiMmq4F11ElWYLmt0ktvYEVgqLDazh4+gW9CKMpYW"
+            ;r.crossOrigin="anonymous";r.async=true
+            ;r.src="https://cdn.amplitude.com/libs/amplitude-5.2.2-min.gz.js"
+            ;r.onload=function(){if(!e.amplitude.runQueuedFunctions){
+                console.log("[Amplitude] Error: could not load SDK")}}
+            ;var i=t.getElementsByTagName("script")[0];i.parentNode.insertBefore(r,i)
+            ;function s(e,t){e.prototype[t]=function(){
+            this._q.push([t].concat(Array.prototype.slice.call(arguments,0)));return this}}
+        var o=function(){this._q=[];return this}
+            ;var a=["add","append","clearAll","prepend","set","setOnce","unset"]
+            ;for(var u=0;u<a.length;u++){s(o,a[u])}n.Identify=o;var c=function(){this._q=[]
+                ;return this}
+            ;var l=["setProductId","setQuantity","setPrice","setRevenueType","setEventProperties"]
+            ;for(var p=0;p<l.length;p++){s(c,l[p])}n.Revenue=c
+            ;var d=["init","logEvent","logRevenue","setUserId","setUserProperties","setOptOut","setVersionName","setDomain","setDeviceId","setGlobalUserProperties","identify","clearUserProperties","setGroup","logRevenueV2","regenerateDeviceId","groupIdentify","onInit","logEventWithTimestamp","logEventWithGroups","setSessionId","resetSessionId"]
+            ;function v(e){function t(t){e[t]=function(){
+                e._q.push([t].concat(Array.prototype.slice.call(arguments,0)))}}
+            for(var n=0;n<d.length;n++){t(d[n])}}v(n);n.getInstance=function(e){
+                e=(!e||e.length===0?"$default_instance":e).toLowerCase()
+                    ;if(!n._iq.hasOwnProperty(e)){n._iq[e]={_q:[]};v(n._iq[e])}return n._iq[e]}
+            ;e.amplitude=n})(window,document);
+    amplitude.getInstance().init("878f4709123a5451aff838c1f870b849");
+</script>
+
+<script>
+var shareasaleSSCID=shareasaleGetParameterByName("sscid");function shareasaleSetCookie(e,a,r,s,t){if(e&&a){var o,n=s?"; path="+s:"",i=t?"; domain="+t:"",S="";r&&((o=new Date).setTime(o.getTime()+r),S="; expires="+o.toUTCString()),document.cookie=e+"="+a+S+n+i+"; SameSite=None;Secure"}}function shareasaleGetParameterByName(e,a){a||(a=window.location.href),e=e.replace(/[\[\]]/g,"\\$&");var r=new RegExp("[?&]"+e+"(=([^&#]*)|&|#|$)").exec(a);return r?r[2]?decodeURIComponent(r[2].replace(/\+/g," ")):"":null}shareasaleSSCID&&shareasaleSetCookie("shareasaleSSCID",shareasaleSSCID,94670778e4,"/");
+</script>
+
+
+
+
+
+<link rel="preconnect" href="https://images01.nicepagecdn.com" />
+<link rel="preconnect" href="https://csite.nicepage.com" />
+
+<!--[if lt IE 9]>
+    <script src="https://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+
+
+
+
+        
+
+
+
+    <script>
+        window.serverSettings = {
+            fbAppId: '290410448063109',
+            googleAppId: '13150095650-mo8psu2colep6uv90a2mu6r87u87s35a.apps.googleusercontent.com'
+        };
+    </script>
+    <script src="https://accounts.google.com/gsi/client?hl=en" async></script>
+    <script src="//csite.nicepage.com/Scripts/Site/auth-common.js?version=c6c07254c07c6280846382ad18c70ad7c70806e5" defer></script>
+
+
+        
+        
+
+        
+    <meta itemprop="datePublished" content="2024-09-29">
+    <meta itemprop="dateModified" content="2024-09-29">
+
+    <link rel="canonical" href="https://nicepage.com/html-templates"/>
+
+        <link rel="next" href="https://nicepage.com:3443/html-templates?page=2">
+
+    <style>
+        h1 {
+            text-transform: capitalize;
+            font-weight: bold;
+            margin: 0 0 40px 0;
+        }
+
+        h2 {
+            font-size: 32px;
+        }
+
+        h2 {
+            font-size: 28px;
+        }
+
+        h2, h3 {
+            text-transform: capitalize;
+            margin: 40px 0 20px;
+            text-align: center;
+            font-weight: 600;
+        }
+
+        h1:first-letter, h2:first-letter, h3:first-letter {
+            text-transform: capitalize;
+        }
+
+        h2.lang, h3.lang {
+            text-transform: lowercase;
+        }
+
+
+        h2 > a, h2 > a:hover, h2 > a:focus {
+            color: #333;
+        }
+
+        h2 > a:hover {
+            text-decoration: none;
+        }
+
+        #main {
+            margin-left: 0;
+            margin-right: 0;
+        }
+
+        .navbar {
+            margin-bottom: 0;
+        }
+
+        #top-navbar {
+            position: sticky;
+            top: 0;
+            z-index: 200;
+        }
+        @media (min-width: 768px) {
+            .search-input {
+                width: 500px !important;
+            }
+        }
+        .pages-content {
+            max-width: 1920px;
+            padding: 35px;
+            margin: 0 auto;
+        }
+
+        .thumbnails-grid {
+            margin-top: 30px
+        }
+
+        .thumbnails-grid h3 {
+            margin: 0;
+            font-size: 13px;
+            line-height: 1.4;
+            font-family: "Roboto", "Arial", "sans-serif";
+        }
+
+        .thumbnails-grid .one-row h3 {
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .thumbnail:hover:after {
+            cursor: zoom-in;
+        }
+
+        @media (max-width: 768px) {
+            .templates-block {
+                padding: 0 20px;
+            }
+        }
+
+        .block-slider .thumbnail-slider-list a[data-title] {
+            padding: 31px 0 0;
+        }
+
+        .block-slider .thumbnail-slider-list a[data-title]:before {
+            font-size: 18px;
+            margin: -32px 0 0;
+        }
+
+        .gray-block {
+            background-color: #f7f7f7;
+            margin: 40px -35px 0 -35px;
+            padding: 1px 35px 20px 35px;
+        }
+
+        .custom-block.gray-block {
+            margin: 0 -35px;
+        }
+
+        .auto-suggest-keyword .auto-suggest-link {
+            margin-left: 12px;
+        }
+
+        .ui-autocomplete-category {
+            background-color:rgb(247, 247, 247);
+            margin: 5px 0 !important;
+            padding: 5px 20px 5px 5px !important;
+            font-size: 14px;
+            text-transform: uppercase;
+        }
+
+        .custom-download-section p, .templates-block p {
+            max-width: 700px;
+            margin: 20px auto;
+            text-align: center;
+            line-height: 1.6;
+            font-size: 16px;
+        }
+
+        .custom-download-section.gray-block {
+            margin-bottom: -40px;
+        }
+
+        .templates-block.gray-block p {
+            margin: 0 auto;
+            padding: 30px;
+        }
+
+        .keywords-slider-container .thumbnail-slider.keyword-slider {
+            max-width: 100%;
+            width: 100%;
+            margin: 20px 0 0;
+        }
+    </style>
+    <style>
+        .templates-heading-container {
+            background-color: #53a865;
+        }
+
+        @media (min-width: 576px) and (max-width: 1281px) {
+            .templates-heading-container {
+                background-image: url('//csite.nicepage.com/Images/Site/free-html-templates-1200.jpg?v=4');
+            }
+        }
+        @media (min-width: 1281px) and (max-width: 1700px) {
+            .templates-heading-container {
+                background-image: url('//csite.nicepage.com/Images/Site/free-html-templates-1600.jpg?v=4');
+            }
+        }
+        @media (min-width: 1700px) {
+            .templates-heading-container {
+                background-image: url('//csite.nicepage.com/Images/Site/free-html-templates-1920.jpg?v=4');
+            }
+        }
+    </style>
+
+    <script type="text/javascript">
+        var submitSearchTimer = false;
+        document.addEventListener("DOMContentLoaded", function() {
+            var thumbSlider = $('.thumbnail-slider');
+            thumbSlider.thumbnailSlider();
+
+            $('#search-button').on('click', function (e) {
+                e.preventDefault();
+                var searchTerm = $('#search').val();
+                if (canLogToAmplitude()) {
+                    sendAmplitudeAnalyticsData('Page Search', { "Type": "Page", "Term": searchTerm });
+                }
+                setTimeout(function() {
+                    $('#search-form').submit();
+                }, 200);
+                return false;
+            });
+
+            SearchController.init('https://np-index.nicepagesrv.com/api/');
+
+            $("#key").catcomplete({
+                source: function (request, response) {
+                    SearchController.search({ q: request.term, lang: 'en'},
+                        function (err, result) {
+                            if (err) {
+                                alert(err);
+                                return;
+                            }
+                            result = result.filter(r => r.items && r.items.length > 0);
+                            response(result);
+                    });
+                },
+                minLength: 1,
+                select: function(event, ui) {
+                    if (!ui.item) {
+                        return;
+                    }
+
+                    if (canLogToAmplitude()) {
+                        sendAmplitudeAnalyticsData('Page Search', { "Type": "Page", "Term": ui.item.value });
+                    }
+                    setTimeout(function() {
+                        location.href = location.origin + ui.item.url;
+                    }, 200);
+                }
+            });
+
+            $(window).resize(function() {
+                $("#search").autocomplete("close");
+            });
+            
+        });
+
+        function submitSearchForm(e) {
+            e.preventDefault();
+            clearTimeout(submitSearchTimer);
+            submitSearchTimer = setTimeout(function() {
+                $('#term').val($('#key').val().trim().replace(/\s+/g, ' '));
+                $('#key').attr('disabled', true);
+                $('#search-form').submit();
+            }, 0);
+            return true;
+        }
+
+        window.onpageshow = function(event) {
+            setTimeout(function () {
+                search = document.getElementById('key');
+                if (!search) {
+                    return;
+                }
+                search.removeAttribute('disabled');
+                search.focus();
+            });
+        };
+
+    </script>
+
+
+
+        <!--meta name="google-site-verification" content="91O3bL1ryXysP925e_KKodKSsrpDCHTmgGeH0IA-NbA" /-->
+<!— Pinterest Tag —>
+<!--
+<script>
+!function(e){if(!window.pintrk){window.pintrk = function () {
+window.pintrk.queue.push(Array.prototype.slice.call(arguments))};var
+      n=window.pintrk;n.queue=[],n.version="3.0";var
+      t=document.createElement("script");t.async=!0,t.src=e;var
+      r=document.getElementsByTagName("script")[0];
+      r.parentNode.insertBefore(t,r)}}("https://s.pinimg.com/ct/core.js");
+pintrk('load', '2619058937406', {em: '<user_email_address>'});
+pintrk('page');
+</script>
+<noscript>
+<img height="1" width="1" style="display:none;" alt=""
+      src="https://ct.pinterest.com/v3/?tid=2619058937406&pd[em]=<hashed_email_address>&noscript=1" />
+</noscript>
+-->
+<!— end Pinterest Tag —>
+
+        
+
+        <script type="text/javascript">
+            document.addEventListener("DOMContentLoaded", function () {
+                if (typeof IOlazy === 'function') {
+                    var lazy = new IOlazy();
+                }
+            });
+        </script>
+        
+
+    </head>
+    <body>
+            <!-- Google Tag Manager (noscript) -->
+            <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W76XGFR" height="0" width="0" style="display: none; visibility: hidden"></iframe></noscript>
+            <!-- End Google Tag Manager (noscript) -->
+        
+
+
+        
+
+
+        <div class="wrap wrap-fluid">
+            <div id="top-navbar" class="navbar navbar-inverse">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <a class="navbar-brand clearfix" href="https://nicepage.com"><img class="pull-left" width="123" height="40" alt="Nicepage.com" src="//csite.nicepage.com/Images/logo-w.png" /></a>
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <div class="navbar-collapse collapse">
+                        <ul class="logon-block nav navbar-nav nav-list navbar-left u-unstyled" style="font-size: 14px;">
+                            <li class="dropdown">
+                                <a href="/download">Download</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="/features">400+ Features</a>
+                            </li>
+                            <li class="dropdown">
+                                <a aria-expanded="false" role="button" data-toggle="dropdown" class="dropdown-toggle template-menu-item" href="/html-templates">15,000+ Templates
+    <span class="caret"></span></a>
+	<ul role="menu" class="dropdown-menu dropdown-menu-hover u-unstyled">
+	    <li><a href="/website-templates" class="templates-url" data-urls="website-templates;templates">Website Templates</a></li>
+	    <li><a href="/website-design" class="templates-url">Website Designs</a></li>
+	    <li><a href="/wordpress-themes">WordPress Themes</a></li>
+	    <li><a href="/joomla-templates">Joomla Templates</a></li>
+	    <li><a href="/html-templates" class="templates-url" data-urls="html-templates;html5-template;css-templates">HTML Templates</a></li>
+	</ul>
+</a>
+                            </li>
+                            <li class="dropdown">
+                                <a aria-expanded="false" role="button" data-toggle="dropdown" class="dropdown-toggle" href="#">
+                                    Website Builders
+                                    <span class="caret"></span>
+                                </a>
+                                <ul role="menu" class="dropdown-menu dropdown-menu-hover u-unstyled">
+                                    <li><a class="builder-link" href="/html-website-builder">HTML Website Builder</a></li>
+                                    <li><a class="builder-link" href="/wordpress-website-builder">WordPress Website Builder</a></li>
+                                    <li><a class="builder-link" href="/joomla-page-builder">Joomla Page Builder</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="/premium">Pricing</a>
+                            </li>
+                            <li><a href="/forum">Forums</a></li>
+                            <li class="dropdown">
+                                <a href="/blog">Blog</a>
+                            </li>
+                            <li class="dropdown">
+                                <a aria-expanded="false" role="button" data-toggle="dropdown" class="dropdown-toggle" href="#">Help<span class="caret"></span></a>
+                                <ul role="menu" class="dropdown-menu dropdown-menu-hover u-unstyled">
+                                    <li><a href="/doc/1318/video-lessons">Video Tutorials</a></li>
+                                    <li><a href="/doc">Documentation</a></li>
+                                    <li><a href="/Forum/Topic/Create">Contact Support</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                        <ul class="logon-block nav navbar-nav nav-list navbar-right u-unstyled">
+                             
+                                    <li class="dropdown">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">EN <span class="caret"></span></a>
+                                        <ul class="dropdown-menu u-unstyled" role="menu">
+                                                <li><a href="/html-templates">EN</a></li>
+                                                <li><a href="/de/html-vorlagen">DE</a></li>
+                                                <li><a href="/nl/html-sjablonen">NL</a></li>
+                                                <li><a href="/fr/modeles-html">FR</a></li>
+                                                <li><a href="/it/modelli-html">IT</a></li>
+                                                <li><a href="/es/plantillas-html">ES</a></li>
+                                                <li><a href="/pl/szablony-html">PL</a></li>
+                                                <li><a href="/pt/modelos-html">PT</a></li>
+                                                <li><a href="/tr/html-sablonlari">TR</a></li>
+                                                <li><a href="/ru/html-shablony">RU</a></li>
+                                                <li><a href="/hu/html-sablonok">HU</a></li>
+                                                <li><a href="/cs/html-sablony">CS</a></li>
+                                                <li><a href="/sv/html-mallar">SV</a></li>
+                                        </ul>
+                                    </li>
+
+
+<li><a href="/Editor/Account/LogOn">Sign In</a></li><li class="divider-vertical"></li><li><a href="https://nicepage.com/Editor/Account/Register">Register</a></li><li class="divider-vertical"></li>                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+
+            <section id="main" class="container-fluid">
+
+                
+                
+
+                
+
+                
+
+
+<div class="pages-content">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="templates-heading-container">
+                <div class="heading-block ">
+                    <h1 class="">15,000+ Free HTML Templates</h1>
+    <form action="/html-templates" id="search-form" method="get" novalidate="novalidate">
+        <input type="hidden" name="term" id="term">
+        <input aria-label="Enter Search Keywords" class="form-control search-input" id="key" name="key" placeholder="Enter Keywords" type="text" value="" />
+        <input type="submit" value="" aria-label="Search HTML Templates"  class="btn search-btn" onclick="return submitSearchForm(event)" />
+    </form>
+                    <div class="heading-description ">Best HTML Template Free Download. HTML Website Templates, Basic and Simple HTML Templates. Responsive and fully customizable with easy Drag-n-Drop HTML Website Builder</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+        <div class="row">
+            <div class="col-md-12">
+                <div class="keywords-slider-container">
+                    <script type="text/javascript">
+    document.addEventListener("DOMContentLoaded", function() {
+        var thumbSlider = $('.thumbnail-slider');
+        thumbSlider.thumbnailSlider();
+    });
+</script>
+
+<style>
+    @media (min-width: 767px) {
+        .thumbnail-slider.keyword-slider {
+            max-width: 1200px;
+            width: calc(100vw - 400px);
+        }
+    }
+</style>
+<div class="thumbnail-slider keyword-slider">
+    <div class="thumbnail-slider-viewport-wrapper">
+        <div class="thumbnail-slider-viewport">
+            <div class="thumbnail-slider-list">
+                        <a href="/k/design-html-templates" data-title="" title="Design HTML Templates"><div>design</div></a>
+                        <a href="/k/school-html-templates" data-title="" title="School HTML Templates"><div>school</div></a>
+                        <a href="/k/personal-html-templates" data-title="" title="Personal HTML Templates"><div>personal</div></a>
+                        <a href="/k/photography-html-templates" data-title="" title="Photography HTML Templates"><div>photography</div></a>
+                        <a href="/k/restaurant-html-templates" data-title="" title="Restaurant HTML Templates"><div>restaurant</div></a>
+                        <a href="/k/church-html-templates" data-title="" title="Church HTML Templates"><div>church</div></a>
+                        <a href="/k/agency-html-templates" data-title="" title="Agency HTML Templates"><div>agency</div></a>
+                        <a href="/k/booking-html-templates" data-title="" title="Booking HTML Templates"><div>booking</div></a>
+                        <a href="/k/photo-gallery-html-templates" data-title="" title="Photo Gallery HTML Templates"><div>photo gallery</div></a>
+                        <a href="/k/service-html-templates" data-title="" title="Service HTML Templates"><div>service</div></a>
+                        <a href="/k/realtor-html-templates" data-title="" title="Realtor HTML Templates"><div>realtor</div></a>
+                        <a href="/k/resume-html-templates" data-title="" title="Resume HTML Templates"><div>resume</div></a>
+                        <a href="/k/audit-html-templates" data-title="" title="Audit HTML Templates"><div>audit</div></a>
+                        <a href="/k/menu-html-templates" data-title="" title="Menu HTML Templates"><div>menu</div></a>
+                        <a href="/k/rental-html-templates" data-title="" title="Rental HTML Templates"><div>rental</div></a>
+                        <a href="/k/proposal-html-templates" data-title="" title="Proposal HTML Templates"><div>proposal</div></a>
+                        <a href="/k/music-html-templates" data-title="" title="Music HTML Templates"><div>music</div></a>
+                        <a href="/k/sale-html-templates" data-title="" title="Sale HTML Templates"><div>sale</div></a>
+                        <a href="/k/construction-company-html-templates" data-title="" title="Construction Company HTML Templates"><div>construction company</div></a>
+                        <a href="/k/consulting-html-templates" data-title="" title="Consulting HTML Templates"><div>consulting</div></a>
+                        <a href="/k/wedding-html-templates" data-title="" title="Wedding HTML Templates"><div>wedding</div></a>
+                        <a href="/k/coming-soon-html-templates" data-title="" title="Coming Soon HTML Templates"><div>coming soon</div></a>
+                        <a href="/k/company-html-templates" data-title="" title="Company HTML Templates"><div>company</div></a>
+                        <a href="/k/store-html-templates" data-title="" title="Store HTML Templates"><div>store</div></a>
+                        <a href="/k/event-html-templates" data-title="" title="Event HTML Templates"><div>event</div></a>
+                        <a href="/k/repair-html-templates" data-title="" title="Repair HTML Templates"><div>repair</div></a>
+                        <a href="/k/college-html-templates" data-title="" title="College HTML Templates"><div>college</div></a>
+                        <a href="/k/privacy-policy-html-templates" data-title="" title="Privacy Policy HTML Templates"><div>privacy policy</div></a>
+                        <a href="/k/author-html-templates" data-title="" title="Author HTML Templates"><div>author</div></a>
+                        <a href="/k/parallax-html-templates" data-title="" title="Parallax HTML Templates"><div>parallax</div></a>
+                        <a href="/k/academic-html-templates" data-title="" title="Academic HTML Templates"><div>academic</div></a>
+                        <a href="/k/parallax-html-templates" data-title="" title="Parallax HTML Templates"><div>parallax</div></a>
+                        <a href="/k/hosting-html-templates" data-title="" title="Hosting HTML Templates"><div>hosting</div></a>
+                        <a href="/k/investment-html-templates" data-title="" title="Investment HTML Templates"><div>investment</div></a>
+                        <a href="/k/news-html-templates" data-title="" title="News HTML Templates"><div>news</div></a>
+                        <a href="/k/shopping-html-templates" data-title="" title="Shopping HTML Templates"><div>shopping</div></a>
+                        <a href="/k/cleaning-html-templates" data-title="" title="Cleaning HTML Templates"><div>cleaning</div></a>
+                        <a href="/k/futuristic-html-templates" data-title="" title="Futuristic HTML Templates"><div>futuristic</div></a>
+                        <a href="/k/model-html-templates" data-title="" title="Model HTML Templates"><div>model</div></a>
+                        <a href="/k/club-html-templates" data-title="" title="Club HTML Templates"><div>club</div></a>
+
+            </div>
+        </div>
+    </div>
+    <a class="thumbnail-slider-control left off" href="#" rel="noopener" aria-label="thumbnail slider show more">
+        <span class="thumbnail-slider-control-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                <path fill="currentColor" d="M9.53 11.71L5.99 8.18a.25.25 0 0 1 0-.36L9.53 4.3a.75.75 0 1 0-1.06-1.06L4.93 6.76c-.68.69-.68 1.8 0 2.48l3.54 3.53a.75.75 0 0 0 1.06-1.06z"></path>
+            </svg>
+        </span>
+    </a>
+    <a class="thumbnail-slider-control right" href="#" rel="noopener" aria-label="thumbnail slider show more">
+        <span class="thumbnail-slider-control-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                <path fill="currentColor" d="M6.47 4.29l3.54 3.53c.1.1.1.26 0 .36L6.47 11.7a.75.75 0 1 0 1.06 1.06l3.54-3.53c.68-.69.68-1.8 0-2.48L7.53 3.23a.75.75 0 0 0-1.06 1.06z"></path>
+            </svg>
+        </span>
+    </a>
+</div>
+                </div>
+            </div>
+        </div>
+    
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="templates-block">
+                        <h2 class="">
+                                <a href="/html-templates?pages=True">Popular HTML Template Categories</a>
+                        </h2>
+                            <p> Choose the best HTML templates and use our visual template editor to add and modify the content with no coding. The design of any page template looks great on all modern devices.</p>
+                        
+<div class="thumbnail-slider">
+    <div class="thumbnail-slider-viewport-wrapper">
+        <div class="thumbnail-slider-viewport">
+            <div class="thumbnail-slider-list">
+                        <a href="/c/business-law-html-templates" data-title="Business &amp; Law" title="Business &amp; Law HTML Templates">
+                            <span style="width: 150px; height: 275px;">
+                                    <img alt="Business &amp; Law HTML Templates" src="https://images01.nicepagecdn.com/page/81/13/html-template-81130.jpg" />
+                            </span>
+                        </a>
+                        <a href="/c/art-design-html-templates" data-title="Art &amp; Design" title="Art &amp; Design HTML Templates">
+                            <span style="width: 150px; height: 269px;">
+                                    <img alt="Art &amp; Design HTML Templates" src="https://images01.nicepagecdn.com/page/71/06/html-template-71063.jpg" />
+                            </span>
+                        </a>
+                        <a href="/c/technology-html-templates" data-title="Technology" title="Technology HTML Templates">
+                            <span style="width: 150px; height: 275px;">
+                                    <img alt="Technology HTML Templates" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" data-src="https://images01.nicepagecdn.com/page/23/33/html-template-23330.jpg" class="lazyload" />
+                            </span>
+                        </a>
+                        <a href="/c/fashion-beauty-html-templates" data-title="Fashion &amp; Beauty" title="Fashion &amp; Beauty HTML Templates">
+                            <span style="width: 150px; height: 275px;">
+                                    <img alt="Fashion &amp; Beauty HTML Templates" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" data-src="https://images01.nicepagecdn.com/page/26/81/html-template-26813.jpg" class="lazyload" />
+                            </span>
+                        </a>
+                        <a href="/c/food-restaurant-html-templates" data-title="Food &amp; Restaurant" title="Food &amp; Restaurant HTML Templates">
+                            <span style="width: 150px; height: 275px;">
+                                    <img alt="Food &amp; Restaurant HTML Templates" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" data-src="https://images01.nicepagecdn.com/page/24/98/html-template-24984.jpg" class="lazyload" />
+                            </span>
+                        </a>
+                        <a href="/c/architecture-building-html-templates" data-title="Architecture &amp; Building" title="Architecture &amp; Building HTML Templates">
+                            <span style="width: 150px; height: 275px;">
+                                    <img alt="Architecture &amp; Building HTML Templates" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" data-src="https://images01.nicepagecdn.com/page/63/54/html-template-63541.jpg" class="lazyload" />
+                            </span>
+                        </a>
+                        <a href="/c/industrial-html-templates" data-title="Industrial" title="Industrial HTML Templates">
+                            <span style="width: 150px; height: 275px;">
+                                    <img alt="Industrial HTML Templates" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" data-src="https://images01.nicepagecdn.com/page/48/83/html-template-48832.jpg" class="lazyload" />
+                            </span>
+                        </a>
+                        <a href="/c/interior-html-templates" data-title="Interior" title="Interior HTML Templates">
+                            <span style="width: 150px; height: 275px;">
+                                    <img alt="Interior HTML Templates" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" data-src="https://images01.nicepagecdn.com/page/23/29/html-template-23291.jpg" class="lazyload" />
+                            </span>
+                        </a>
+                        <a href="/c/education-html-templates" data-title="Education" title="Education HTML Templates">
+                            <span style="width: 150px; height: 275px;">
+                                    <img alt="Education HTML Templates" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" data-src="https://images01.nicepagecdn.com/page/29/47/html-template-29476.jpg" class="lazyload" />
+                            </span>
+                        </a>
+                        <a href="/c/cars-transportation-html-templates" data-title="Cars &amp; Transportation" title="Cars &amp; Transportation HTML Templates">
+                            <span style="width: 150px; height: 272px;">
+                                    <img alt="Cars &amp; Transportation HTML Templates" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" data-src="https://images01.nicepagecdn.com/page/19/50/html-template-19500.jpg" class="lazyload" />
+                            </span>
+                        </a>
+                        <a href="/c/music-entertainment-html-templates" data-title="Music &amp; Entertainment" title="Music &amp; Entertainment HTML Templates">
+                            <span style="width: 150px; height: 275px;">
+                                    <img alt="Music &amp; Entertainment HTML Templates" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" data-src="https://images01.nicepagecdn.com/page/24/28/html-template-24285.jpg" class="lazyload" />
+                            </span>
+                        </a>
+                        <a href="/c/travel-hotels-html-templates" data-title="Travel &amp; Hotels" title="Travel &amp; Hotels HTML Templates">
+                            <span style="width: 150px; height: 275px;">
+                                    <img alt="Travel &amp; Hotels HTML Templates" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" data-src="https://images01.nicepagecdn.com/page/60/14/html-template-60144.jpg" class="lazyload" />
+                            </span>
+                        </a>
+                        <a href="/c/sale-html-templates" data-title="Sale" title="Sale HTML Templates">
+                            <span style="width: 150px; height: 275px;">
+                                    <img alt="Sale HTML Templates" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" data-src="https://images01.nicepagecdn.com/page/83/73/html-template-83730.jpg" class="lazyload" />
+                            </span>
+                        </a>
+                        <a href="/c/sports-html-templates" data-title="Sports" title="Sports HTML Templates">
+                            <span style="width: 150px; height: 275px;">
+                                    <img alt="Sports HTML Templates" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" data-src="https://images01.nicepagecdn.com/page/88/77/html-template-88779.jpg" class="lazyload" />
+                            </span>
+                        </a>
+                        <a href="/c/medicine-science-html-templates" data-title="Medicine &amp; Science" title="Medicine &amp; Science HTML Templates">
+                            <span style="width: 150px; height: 275px;">
+                                    <img alt="Medicine &amp; Science HTML Templates" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" data-src="https://images01.nicepagecdn.com/page/16/75/html-template-16755.jpg" class="lazyload" />
+                            </span>
+                        </a>
+                        <a href="/c/real-estate-html-templates" data-title="Real Estate" title="Real Estate HTML Templates">
+                            <span style="width: 150px; height: 275px;">
+                                    <img alt="Real Estate HTML Templates" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" data-src="https://images01.nicepagecdn.com/page/12/45/html-template-12454.jpg" class="lazyload" />
+                            </span>
+                        </a>
+                        <a href="/c/wedding-html-templates" data-title="Wedding" title="Wedding HTML Templates">
+                            <span style="width: 150px; height: 275px;">
+                                    <img alt="Wedding HTML Templates" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" data-src="https://images01.nicepagecdn.com/page/32/36/html-template-32364.jpg" class="lazyload" />
+                            </span>
+                        </a>
+                        <a href="/c/nature-html-templates" data-title="Nature" title="Nature HTML Templates">
+                            <span style="width: 150px; height: 260px;">
+                                    <img alt="Nature HTML Templates" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" data-src="https://images01.nicepagecdn.com/page/78/51/html-template-78518.jpg" class="lazyload" />
+                            </span>
+                        </a>
+                        <a href="/c/pets-animals-html-templates" data-title="Pets &amp; Animals" title="Pets &amp; Animals HTML Templates">
+                            <span style="width: 150px; height: 239px;">
+                                    <img alt="Pets &amp; Animals HTML Templates" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" data-src="https://images01.nicepagecdn.com/page/14/60/html-template-14604.jpg" class="lazyload" />
+                            </span>
+                        </a>
+
+            </div>
+        </div>
+    </div>
+    <a class="thumbnail-slider-control left off" href="#" rel="noopener" aria-label="thumbnail slider show more">
+        <span class="thumbnail-slider-control-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                <path fill="currentColor" d="M9.53 11.71L5.99 8.18a.25.25 0 0 1 0-.36L9.53 4.3a.75.75 0 1 0-1.06-1.06L4.93 6.76c-.68.69-.68 1.8 0 2.48l3.54 3.53a.75.75 0 0 0 1.06-1.06z"></path>
+            </svg>
+        </span>
+    </a>
+    <a class="thumbnail-slider-control right" href="#" rel="noopener" aria-label="thumbnail slider show more">
+        <span class="thumbnail-slider-control-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                <path fill="currentColor" d="M6.47 4.29l3.54 3.53c.1.1.1.26 0 .36L6.47 11.7a.75.75 0 1 0 1.06 1.06l3.54-3.53c.68-.69.68-1.8 0-2.48L7.53 3.23a.75.75 0 0 0-1.06 1.06z"></path>
+            </svg>
+        </span>
+    </a>
+</div>
+                    </div>
+                </div>
+            </div>
+            <script type="text/javascript">
+                var sliders = document.querySelectorAll('.thumbnail-slider-viewport-wrapper');
+                for (var i = 0; i < sliders.length; i++) {
+                    var slider = sliders[i];
+                    if (slider.firstElementChild) {
+                        slider.style.height = slider.firstElementChild.scrollHeight + 'px';
+                    }
+                }
+            </script>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="block-styles-container gray-block">
+                        <div class="templates-block block-styles">
+                            <h2 class="">
+                                    <a href="/html-templates?blocks=True">HTML Block Designs</a>
+                            </h2>
+                                <p> Meet our unique multi-purpose HTML block templates hand-picked by the professional design team. Modify the design of block templates with our powerful editor.</p>
+                                    <a href="/c/full-width-slider-html-templates" data-title="Full Width Slider" title="Full Width Slider HTML Templates" style="" >
+            <span style="width: 262px; height: 143px;">
+                <img alt="Full Width Slider HTML Templates" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" data-src="https://images01.nicepagecdn.com/page/79/52/html-template-79522.jpg" class="lazyload" />
+            </span>
+        </a>
+        <a href="/c/text-on-image-html-templates" data-title="Text On Image" title="Text On Image HTML Templates" style="" >
+            <span style="width: 262px; height: 165px;">
+                <img alt="Text On Image HTML Templates" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" data-src="https://images01.nicepagecdn.com/page/54/79/html-template-54794.jpg" class="lazyload" />
+            </span>
+        </a>
+        <a href="/c/features-html-templates" data-title="Features" title="Features HTML Templates" style="" >
+            <span style="width: 262px; height: 186px;">
+                <img alt="Features HTML Templates" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" data-src="https://images01.nicepagecdn.com/page/71/13/html-template-71130.jpg" class="lazyload" />
+            </span>
+        </a>
+        <a href="/c/wide-html-templates" data-title="Wide" title="Wide HTML Templates" style="" >
+            <span style="width: 262px; height: 161px;">
+                <img alt="Wide HTML Templates" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" data-src="https://images01.nicepagecdn.com/page/22/96/html-template-229651.jpg" class="lazyload" />
+            </span>
+        </a>
+        <a href="/c/contacts-html-templates" data-title="Contacts" title="Contacts HTML Templates" style="" >
+            <span style="width: 262px; height: 141px;">
+                <img alt="Contacts HTML Templates" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" data-src="https://images01.nicepagecdn.com/page/92/07/html-template-92073.jpg" class="lazyload" />
+            </span>
+        </a>
+        <a href="/c/about-us-html-templates" data-title="About Us" title="About Us HTML Templates" style="" >
+            <span style="width: 262px; height: 144px;">
+                <img alt="About Us HTML Templates" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" data-src="https://images01.nicepagecdn.com/page/70/88/html-template-70880.jpg" class="lazyload" />
+            </span>
+        </a>
+        <a href="/c/split-html-templates" data-title="Split" title="Split HTML Templates" style="" >
+            <span style="width: 262px; height: 142px;">
+                <img alt="Split HTML Templates" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" data-src="https://images01.nicepagecdn.com/page/98/06/html-template-98067.jpg" class="lazyload" />
+            </span>
+        </a>
+        <a href="/c/over-grid-html-templates" data-title="Over Grid" title="Over Grid HTML Templates" style="" >
+            <span style="width: 262px; height: 160px;">
+                <img alt="Over Grid HTML Templates" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" data-src="https://images01.nicepagecdn.com/page/42/64/html-template-42649.jpg" class="lazyload" />
+            </span>
+        </a>
+        <a href="/c/shapes-html-templates" data-title="Shapes" title="Shapes HTML Templates" style="" >
+            <span style="width: 262px; height: 171px;">
+                <img alt="Shapes HTML Templates" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" data-src="https://images01.nicepagecdn.com/page/72/04/html-template-72045.jpg" class="lazyload" />
+            </span>
+        </a>
+        <a href="/c/group-html-templates" data-title="Group" title="Group HTML Templates" style="" >
+            <span style="width: 262px; height: 185px;">
+                <img alt="Group HTML Templates" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" data-src="https://images01.nicepagecdn.com/page/10/88/html-template-108822.jpg" class="lazyload" />
+            </span>
+        </a>
+        <a href="/c/tiles-html-templates" data-title="Tiles" title="Tiles HTML Templates" style="" >
+            <span style="width: 262px; height: 201px;">
+                <img alt="Tiles HTML Templates" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" data-src="https://images01.nicepagecdn.com/page/40/97/html-template-40975.jpg" class="lazyload" />
+            </span>
+        </a>
+        <a href="/c/layered-images-html-templates" data-title="Layered Images" title="Layered Images HTML Templates" style="" >
+            <span style="width: 262px; height: 179px;">
+                <img alt="Layered Images HTML Templates" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" data-src="https://images01.nicepagecdn.com/page/43/93/html-template-43931.jpg" class="lazyload" />
+            </span>
+        </a>
+        <a href="/c/grid-html-templates" data-title="Grid" title="Grid HTML Templates" style="" >
+            <span style="width: 262px; height: 203px;">
+                <img alt="Grid HTML Templates" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" data-src="https://images01.nicepagecdn.com/page/70/46/html-template-70461.jpg" class="lazyload" />
+            </span>
+        </a>
+        <a href="/c/gallery-html-templates" data-title="Gallery" title="Gallery HTML Templates" style="" >
+            <span style="width: 262px; height: 184px;">
+                <img alt="Gallery HTML Templates" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" data-src="https://images01.nicepagecdn.com/page/79/25/html-template-79253.jpg" class="lazyload" />
+            </span>
+        </a>
+        <a href="/c/overlap-block-html-templates" data-title="Overlap Block" title="Overlap Block HTML Templates" style="" >
+            <span style="width: 262px; height: 182px;">
+                <img alt="Overlap Block HTML Templates" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" data-src="https://images01.nicepagecdn.com/page/57/47/html-template-57476.jpg" class="lazyload" />
+            </span>
+        </a>
+        <a href="/c/slider-html-templates" data-title="Slider" title="Slider HTML Templates" style=" display:none;" >
+            <span style="width: 262px; height: 137px;">
+                <img alt="Slider HTML Templates" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" data-src="https://images01.nicepagecdn.com/page/10/56/html-template-1056616.jpg" class="lazyload" />
+            </span>
+        </a>
+        <a href="/c/thirds-html-templates" data-title="Thirds" title="Thirds HTML Templates" style=" display:none;" >
+            <span style="width: 262px; height: 141px;">
+                <img alt="Thirds HTML Templates" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" data-src="https://images01.nicepagecdn.com/page/73/37/html-template-73379.jpg" class="lazyload" />
+            </span>
+        </a>
+        <a href="/c/grid-repeater-html-templates" data-title="Grid Repeater" title="Grid Repeater HTML Templates" style=" display:none;" >
+            <span style="width: 262px; height: 180px;">
+                <img alt="Grid Repeater HTML Templates" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" data-src="https://images01.nicepagecdn.com/page/85/97/html-template-85970.jpg" class="lazyload" />
+            </span>
+        </a>
+        <a href="/c/blog-posts-html-templates" data-title="Blog Posts" title="Blog Posts HTML Templates" style=" display:none;" >
+            <span style="width: 262px; height: 183px;">
+                <img alt="Blog Posts HTML Templates" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" data-src="https://images01.nicepagecdn.com/page/92/45/html-template-92455.jpg" class="lazyload" />
+            </span>
+        </a>
+        <a href="/c/modal-popup-html-templates" data-title="Modal Popup" title="Modal Popup HTML Templates" style=" display:none;" >
+            <span style="width: 262px; height: 205px;">
+                <img alt="Modal Popup HTML Templates" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" data-src="https://images01.nicepagecdn.com/page/12/37/html-template-123744.jpg" class="lazyload" />
+            </span>
+        </a>
+        <a href="/c/product-list-html-templates" data-title="Product List" title="Product List HTML Templates" style=" display:none;" >
+            <span style="width: 262px; height: 123px;">
+                <img alt="Product List HTML Templates" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" data-src="https://images01.nicepagecdn.com/page/86/25/html-template-86258.jpg" class="lazyload" />
+            </span>
+        </a>
+        <a href="/c/product-details-html-templates" data-title="Product Details" title="Product Details HTML Templates" style=" display:none;" >
+            <span style="width: 262px; height: 167px;">
+                <img alt="Product Details HTML Templates" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" data-src="https://images01.nicepagecdn.com/page/11/51/html-template-115148.jpg" class="lazyload" />
+            </span>
+        </a>
+        <a href="/c/video-html-templates" data-title="Video" title="Video HTML Templates" style=" display:none;" >
+            <span style="width: 262px; height: 124px;">
+                <img alt="Video HTML Templates" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" data-src="https://images01.nicepagecdn.com/page/57/18/html-template-57185.jpg" class="lazyload" />
+            </span>
+        </a>
+        <a href="/c/brands-html-templates" data-title="Brands" title="Brands HTML Templates" style=" display:none;" >
+            <span style="width: 262px; height: 120px;">
+                <img alt="Brands HTML Templates" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" data-src="https://images01.nicepagecdn.com/page/83/93/html-template-83936.jpg" class="lazyload" />
+            </span>
+        </a>
+        <a href="/c/testimonials-html-templates" data-title="Testimonials" title="Testimonials HTML Templates" style=" display:none;" >
+            <span style="width: 262px; height: 117px;">
+                <img alt="Testimonials HTML Templates" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" data-src="https://images01.nicepagecdn.com/page/96/14/html-template-96142.jpg" class="lazyload" />
+            </span>
+        </a>
+        <a href="/c/contact-form-html-templates" data-title="Contact Form" title="Contact Form HTML Templates" style=" display:none;" >
+            <span style="width: 262px; height: 123px;">
+                <img alt="Contact Form HTML Templates" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" data-src="https://images01.nicepagecdn.com/page/63/92/html-template-63924.jpg" class="lazyload" />
+            </span>
+        </a>
+        <a href="/c/text-html-templates" data-title="Text" title="Text HTML Templates" style=" display:none;" >
+            <span style="width: 262px; height: 134px;">
+                <img alt="Text HTML Templates" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" data-src="https://images01.nicepagecdn.com/page/23/07/html-template-230768.jpg" class="lazyload" />
+            </span>
+        </a>
+        <a href="/c/counter-html-templates" data-title="Counter" title="Counter HTML Templates" style=" display:none;" >
+            <span style="width: 262px; height: 106px;">
+                <img alt="Counter HTML Templates" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" data-src="https://images01.nicepagecdn.com/page/80/92/html-template-80924.jpg" class="lazyload" />
+            </span>
+        </a>
+        <a href="/c/pricing-html-templates" data-title="Pricing" title="Pricing HTML Templates" style=" display:none;" >
+            <span style="width: 262px; height: 154px;">
+                <img alt="Pricing HTML Templates" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" data-src="https://images01.nicepagecdn.com/page/90/66/html-template-90665.jpg" class="lazyload" />
+            </span>
+        </a>
+        <a href="/c/text-button-html-templates" data-title="Text &amp; Button" title="Text &amp; Button HTML Templates" style=" display:none;" >
+            <span style="width: 262px; height: 105px;">
+                <img alt="Text &amp; Button HTML Templates" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" data-src="https://images01.nicepagecdn.com/page/58/98/html-template-58981.jpg" class="lazyload" />
+            </span>
+        </a>
+        <a href="/c/team-html-templates" data-title="Team" title="Team HTML Templates" style=" display:none;" >
+            <span style="width: 262px; height: 186px;">
+                <img alt="Team HTML Templates" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" data-src="https://images01.nicepagecdn.com/page/10/83/html-template-108329.jpg" class="lazyload" />
+            </span>
+        </a>
+        <a href="/c/accordion-html-templates" data-title="Accordion" title="Accordion HTML Templates" style=" display:none;" >
+            <span style="width: 262px; height: 142px;">
+                <img alt="Accordion HTML Templates" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" data-src="https://images01.nicepagecdn.com/page/23/06/html-template-230672.jpg" class="lazyload" />
+            </span>
+        </a>
+        <a href="/c/table-html-templates" data-title="Table" title="Table HTML Templates" style=" display:none;" >
+            <span style="width: 262px; height: 160px;">
+                <img alt="Table HTML Templates" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" data-src="https://images01.nicepagecdn.com/page/87/27/html-template-87275.jpg" class="lazyload" />
+            </span>
+        </a>
+        <a href="/c/tabs-html-templates" data-title="Tabs" title="Tabs HTML Templates" style=" display:none;" >
+            <span style="width: 262px; height: 126px;">
+                <img alt="Tabs HTML Templates" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" data-src="https://images01.nicepagecdn.com/page/93/55/html-template-93558.jpg" class="lazyload" />
+            </span>
+        </a>
+        <a href="/c/faq-html-templates" data-title="FAQ" title="FAQ HTML Templates" style=" display:none;" >
+            <span style="width: 262px; height: 153px;">
+                <img alt="FAQ HTML Templates" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" data-src="https://images01.nicepagecdn.com/page/26/57/html-template-265764.jpg" class="lazyload" />
+            </span>
+        </a>
+        <a href="/c/social-html-templates" data-title="Social" title="Social HTML Templates" style=" display:none;" >
+            <span style="width: 262px; height: 147px;">
+                <img alt="Social HTML Templates" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" data-src="https://images01.nicepagecdn.com/page/73/38/html-template-73380.jpg" class="lazyload" />
+            </span>
+        </a>
+
+                        </div>
+                        <a href="#" class="block-styles-all" rel="noopener" aria-label="thumbnail slider show more">
+                            <span class="thumbnail-slider-control-btn">
+                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 16 16" enable-background="new 0 0 16 16" xml:space="preserve"><path d="M3.2,6.3c-0.3,0.3-0.3,0.8,0,1.2l3.5,4c0.7,0.8,1.8,0.8,2.5,0l3.5-4c0,0,0,0,0,0c0.3-0.3,0.3-0.9,0-1.2 c-0.3-0.3-0.8-0.3-1.1,0l-3.5,4c-0.1,0.1-0.3,0.1-0.4,0l-3.5-4C4,6,3.5,6,3.2,6.3z" /></svg>
+                    </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="templates-block">
+                    <h2 class="">
+                            <a href="/html-templates?pages=False">Best HTML Website Templates</a>
+                    </h2>
+                        <p> Select from over 15,000 HTML templates from the portfolio, business, fashion, technology, education, and other trending themes. All templates are fully responsive and available for free.</p>
+                    <time itemprop="dateModified" content="2024-09-24" class="last-updated-block">
+                        Last Updated: Sep 24, 2024
+                    </time>
+                                    <div class="thumbnails-grid">
+
+                        
+
+
+<ul class="thumbnails thumbnails-loading list-unstyled">
+        <li class="thumbnail-item title-one-row" data-height="0" style="width: 260px; height: 367px;" 
+            data-like = 731 data-set = 20>
+            <div class="page-image">
+                <a class="thumbnail" href="/ht/2927269/contacts-block-with-map-html-template" style="width:260px; height: 317px;" title="Contacts Block With Map - HTML Web Template"><img alt="Contacts Block With Map - HTML Web Template" class="media-image lazyload noversion" data-src="https://images01.nicepagecdn.com/page/29/27/html-template-2927269.jpg" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" style="max-width:100%;" /></a>
+            </div>
+            <div class="page-title one-row ">
+                <a href="/ht/2927269/contacts-block-with-map-html-template" title="Contacts Block With Map - HTML Web Template">Contacts Block With Map - HTML Web Template</a>
+                            </div>
+        </li>
+        <li class="thumbnail-item title-one-row" data-height="0" style="width: 260px; height: 873px;" 
+            data-like = 468 data-set = 16>
+            <div class="page-image">
+                <a class="thumbnail" href="/ht/6174999/fun-learning-html-template" style="width:260px; height: 823px;" title="Fun Learning - Responsive HTML5"><img alt="Fun Learning - Responsive HTML5" class="media-image lazyload noversion" data-src="https://images01.nicepagecdn.com/page/61/74/html-template-6174999.jpg" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" style="max-width:100%;" /></a>
+                    <a class="btn btn-default btn-sm expand-page-button pull-right page-more" href="#" data-url="https://images01.nicepagecdn.com/page/61/74/html-template-full-6174999.jpg">More ↓</a>
+            </div>
+            <div class="page-title one-row ">
+                <a href="/ht/6174999/fun-learning-html-template" title="Fun Learning - Responsive HTML5">Fun Learning - Responsive HTML5</a>
+                            </div>
+        </li>
+        <li class="thumbnail-item title-one-row" data-height="0" style="width: 260px; height: 275px;" 
+            data-like = 64 data-set = 17>
+            <div class="page-image">
+                <a class="thumbnail" href="/ht/6287336/we-create-unique-spaces-html-template" style="width:260px; height: 225px;" title="Design Template For We Create Unique Spaces"><img alt="Design Template For We Create Unique Spaces" class="media-image lazyload noversion" data-src="https://images01.nicepagecdn.com/page/62/87/html-template-6287336.jpg" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" style="max-width:100%;" /></a>
+            </div>
+            <div class="page-title one-row ">
+                <a href="/ht/6287336/we-create-unique-spaces-html-template" title="Design Template For We Create Unique Spaces">Design Template For We Create Unique Spaces</a>
+                            </div>
+        </li>
+        <li class="thumbnail-item title-one-row" data-height="0" style="width: 260px; height: 285px;" 
+            data-like = 279 data-set = 20>
+            <div class="page-image">
+                <a class="thumbnail" href="/ht/6137963/our-members-get-access-to-over-200-classes-a-week-html-template" style="width:260px; height: 235px;" title="HTML Page Design For Our Members Get Access To Over 200 Classes A Week"><img alt="HTML Page Design For Our Members Get Access To Over 200 Classes A Week" class="media-image lazyload noversion" data-src="https://images01.nicepagecdn.com/page/61/37/html-template-6137963.jpg" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" style="max-width:100%;" /></a>
+            </div>
+            <div class="page-title one-row ">
+                <a href="/ht/6137963/our-members-get-access-to-over-200-classes-a-week-html-template" title="HTML Page Design For Our Members Get Access To Over 200 Classes A Week">HTML Page Design For Our Members Get Access To Over 200 Classes A Week</a>
+                            </div>
+        </li>
+        <li class="thumbnail-item title-one-row" data-height="0" style="width: 260px; height: 675px;" 
+            data-like = 1932 >
+            <div class="page-image">
+                <a class="thumbnail" href="/ht/61991/futuristic-standout-business-html-template" style="width:260px; height: 625px;" title="Web Design For Futuristic Standout Business"><img alt="Web Design For Futuristic Standout Business" class="media-image lazyload noversion" data-src="https://images01.nicepagecdn.com/page/61/99/html-template-61991.jpg" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" style="max-width:100%;" /></a>
+                    <a class="btn btn-default btn-sm expand-page-button pull-right page-more" href="#" data-url="https://images01.nicepagecdn.com/page/61/99/html-template-full-61991.jpg">More ↓</a>
+            </div>
+            <div class="page-title one-row ">
+                <a href="/ht/61991/futuristic-standout-business-html-template" title="Web Design For Futuristic Standout Business">Web Design For Futuristic Standout Business</a>
+                            </div>
+        </li>
+        <li class="thumbnail-item title-one-row" data-height="0" style="width: 260px; height: 226px;" 
+            data-like = 3 >
+            <div class="page-image">
+                <a class="thumbnail" href="/ht/456172/new-in-style-html-template" style="width:260px; height: 176px;" title="New In Style - HTML Code Template"><img alt="New In Style - HTML Code Template" class="media-image lazyload noversion" data-src="https://images01.nicepagecdn.com/page/45/61/html-template-456172.jpg" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" style="max-width:100%;" /></a>
+            </div>
+            <div class="page-title one-row ">
+                <a href="/ht/456172/new-in-style-html-template" title="New In Style - HTML Code Template">New In Style - HTML Code Template</a>
+                            </div>
+        </li>
+        <li class="thumbnail-item title-one-row" data-height="0" style="width: 260px; height: 149px;" 
+            data-like = 360 data-set = 19>
+            <div class="page-image">
+                <a class="thumbnail" href="/ht/6152847/group-therapy-and-workshops-html-template" style="width:260px; height: 99px;" title="Group Therapy And Workshops - HTML Website Layout"><img alt="Group Therapy And Workshops - HTML Website Layout" class="media-image lazyload noversion" data-src="https://images01.nicepagecdn.com/page/61/52/html-template-6152847.jpg" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" style="max-width:100%;" /></a>
+            </div>
+            <div class="page-title one-row ">
+                <a href="/ht/6152847/group-therapy-and-workshops-html-template" title="Group Therapy And Workshops - HTML Website Layout">Group Therapy And Workshops - HTML Website Layout</a>
+                            </div>
+        </li>
+        <li class="thumbnail-item title-one-row" data-height="0" style="width: 260px; height: 196px;" 
+            data-like = 8 >
+            <div class="page-image">
+                <a class="thumbnail" href="/ht/175431/cozy-little-things-in-the-interior-html-template" style="width:260px; height: 146px;" title="Cozy Little Things In The Interior - Responsive HTML Template"><img alt="Cozy Little Things In The Interior - Responsive HTML Template" class="media-image lazyload noversion" data-src="https://images01.nicepagecdn.com/page/17/54/html-template-175431.jpg" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" style="max-width:100%;" /></a>
+            </div>
+            <div class="page-title one-row ">
+                <a href="/ht/175431/cozy-little-things-in-the-interior-html-template" title="Cozy Little Things In The Interior - Responsive HTML Template">Cozy Little Things In The Interior - Responsive HTML Template</a>
+                            </div>
+        </li>
+        <li class="thumbnail-item title-one-row" data-height="0" style="width: 260px; height: 292px;" 
+            data-like = 5 data-set = 18>
+            <div class="page-image">
+                <a class="thumbnail" href="/ht/5673881/create-a-luxury-brand-for-your-business-html-template" style="width:260px; height: 242px;" title="Create A Luxury Brand For Your Business - HTML Code Template"><img alt="Create A Luxury Brand For Your Business - HTML Code Template" class="media-image lazyload noversion" data-src="https://images01.nicepagecdn.com/page/56/73/html-template-5673881.jpg" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" style="max-width:100%;" /></a>
+            </div>
+            <div class="page-title one-row ">
+                <a href="/ht/5673881/create-a-luxury-brand-for-your-business-html-template" title="Create A Luxury Brand For Your Business - HTML Code Template">Create A Luxury Brand For Your Business - HTML Code Template</a>
+                            </div>
+        </li>
+        <li class="thumbnail-item title-one-row" data-height="0" style="width: 260px; height: 220px;" 
+            data-like = 7 >
+            <div class="page-image">
+                <a class="thumbnail" href="/ht/194621/tableware-and-decor-html-template" style="width:260px; height: 170px;" title="Tableware And Decor - Bootstrap Template"><img alt="Tableware And Decor - Bootstrap Template" class="media-image lazyload noversion" data-src="https://images01.nicepagecdn.com/page/19/46/html-template-194621.jpg" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" style="max-width:100%;" /></a>
+            </div>
+            <div class="page-title one-row ">
+                <a href="/ht/194621/tableware-and-decor-html-template" title="Tableware And Decor - Bootstrap Template">Tableware And Decor - Bootstrap Template</a>
+                            </div>
+        </li>
+            <li class="thumbnail-item" style="width: 260px; height: 280px;">
+                <div class="download-block white-block" style="background-color: #ffffff; ">
+                    <div style="color: #3c3c3c;" class="download-title">Create your own Website</div>
+                    <a class="btn btn-lg download-btn" href="/download" type="button" rel="nofollow" style="background-color: #ec311e;">Download</a>
+                </div>
+            </li>
+        <li class="thumbnail-item title-one-row" data-height="0" style="width: 260px; height: 180px;" 
+            data-like = 171 data-set = 15>
+            <div class="page-image">
+                <a class="thumbnail" href="/ht/6284094/growth-roadmap-html-template" style="width:260px; height: 130px;" title="Free HTML For Growth Roadmap"><img alt="Free HTML For Growth Roadmap" class="media-image lazyload noversion" data-src="https://images01.nicepagecdn.com/page/62/84/html-template-6284094.jpg" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" style="max-width:100%;" /></a>
+            </div>
+            <div class="page-title one-row ">
+                <a href="/ht/6284094/growth-roadmap-html-template" title="Free HTML For Growth Roadmap">Free HTML For Growth Roadmap</a>
+                            </div>
+        </li>
+        <li class="thumbnail-item title-one-row" data-height="0" style="width: 260px; height: 668px;" 
+            data-like = 260 data-set = 16>
+            <div class="page-image">
+                <a class="thumbnail" href="/ht/6187310/create-identities-and-brands-html-template" style="width:260px; height: 618px;" title="Create Identities And Brands - Modern Web Template"><img alt="Create Identities And Brands - Modern Web Template" class="media-image lazyload noversion" data-src="https://images01.nicepagecdn.com/page/61/87/html-template-6187310.jpg" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" style="max-width:100%;" /></a>
+                    <a class="btn btn-default btn-sm expand-page-button pull-right page-more" href="#" data-url="https://images01.nicepagecdn.com/page/61/87/html-template-full-6187310.jpg">More ↓</a>
+            </div>
+            <div class="page-title one-row ">
+                <a href="/ht/6187310/create-identities-and-brands-html-template" title="Create Identities And Brands - Modern Web Template">Create Identities And Brands - Modern Web Template</a>
+                            </div>
+        </li>
+        <li class="thumbnail-item title-one-row" data-height="0" style="width: 260px; height: 612px;" 
+            data-like = 150 data-set = 27>
+            <div class="page-image">
+                <a class="thumbnail" href="/ht/6310787/adventure-park-html-template" style="width:260px; height: 562px;" title="HTML Page For Adventure Park"><img alt="HTML Page For Adventure Park" class="media-image lazyload noversion" data-src="https://images01.nicepagecdn.com/page/63/10/html-template-6310787.jpg" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" style="max-width:100%;" /></a>
+                    <a class="btn btn-default btn-sm expand-page-button pull-right page-more" href="#" data-url="https://images01.nicepagecdn.com/page/63/10/html-template-full-6310787.jpg">More ↓</a>
+            </div>
+            <div class="page-title one-row ">
+                <a href="/ht/6310787/adventure-park-html-template" title="HTML Page For Adventure Park">HTML Page For Adventure Park</a>
+                            </div>
+        </li>
+        <li class="thumbnail-item title-one-row" data-height="0" style="width: 260px; height: 192px;" 
+            data-like = 4 >
+            <div class="page-image">
+                <a class="thumbnail" href="/ht/483673/developing-a-clear-plan-html-template" style="width:260px; height: 142px;" title="Developing A Clear Plan - HTML Page Template"><img alt="Developing A Clear Plan - HTML Page Template" class="media-image lazyload noversion" data-src="https://images01.nicepagecdn.com/page/48/36/html-template-483673.jpg" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" style="max-width:100%;" /></a>
+            </div>
+            <div class="page-title one-row ">
+                <a href="/ht/483673/developing-a-clear-plan-html-template" title="Developing A Clear Plan - HTML Page Template">Developing A Clear Plan - HTML Page Template</a>
+                            </div>
+        </li>
+        <li class="thumbnail-item title-one-row" data-height="0" style="width: 260px; height: 506px;" 
+            data-like = 648 >
+            <div class="page-image">
+                <a class="thumbnail" href="/ht/6238237/our-offices-around-the-country-html-template" style="width:260px; height: 456px;" title="Our Offices Around The Country - Free Template"><img alt="Our Offices Around The Country - Free Template" class="media-image lazyload noversion" data-src="https://images01.nicepagecdn.com/page/62/38/html-template-6238237.jpg" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" style="max-width:100%;" /></a>
+                    <a class="btn btn-default btn-sm expand-page-button pull-right page-more" href="#" data-url="https://images01.nicepagecdn.com/page/62/38/html-template-full-6238237.jpg">More ↓</a>
+            </div>
+            <div class="page-title one-row ">
+                <a href="/ht/6238237/our-offices-around-the-country-html-template" title="Our Offices Around The Country - Free Template">Our Offices Around The Country - Free Template</a>
+                            </div>
+        </li>
+        <li class="thumbnail-item title-one-row" data-height="0" style="width: 260px; height: 701px;" 
+            data-like = 385 data-set = 22>
+            <div class="page-image">
+                <a class="thumbnail" href="/ht/5371256/we-help-our-clients-achieve-great-things-html-template" style="width:260px; height: 651px;" title="We Help Our Clients Achieve Great Things - Ecommerce Website"><img alt="We Help Our Clients Achieve Great Things - Ecommerce Website" class="media-image lazyload noversion" data-src="https://images01.nicepagecdn.com/page/53/71/html-template-5371256.jpg" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" style="max-width:100%;" /></a>
+                    <a class="btn btn-default btn-sm expand-page-button pull-right page-more" href="#" data-url="https://images01.nicepagecdn.com/page/53/71/html-template-full-5371256.jpg">More ↓</a>
+            </div>
+            <div class="page-title one-row ">
+                <a href="/ht/5371256/we-help-our-clients-achieve-great-things-html-template" title="We Help Our Clients Achieve Great Things - Ecommerce Website">We Help Our Clients Achieve Great Things - Ecommerce Website</a>
+                            </div>
+        </li>
+        <li class="thumbnail-item title-one-row" data-height="0" style="width: 260px; height: 230px;" 
+            data-like = 15 >
+            <div class="page-image">
+                <a class="thumbnail" href="/ht/50986/time-for-fun-html-template" style="width:260px; height: 180px;" title="Web Page For Time For Fun"><img alt="Web Page For Time For Fun" class="media-image lazyload noversion" data-src="https://images01.nicepagecdn.com/page/50/98/html-template-50986.jpg" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" style="max-width:100%;" /></a>
+            </div>
+            <div class="page-title one-row ">
+                <a href="/ht/50986/time-for-fun-html-template" title="Web Page For Time For Fun">Web Page For Time For Fun</a>
+                            </div>
+        </li>
+        <li class="thumbnail-item title-one-row" data-height="0" style="width: 260px; height: 230px;" 
+            data-like = 231 data-set = 18>
+            <div class="page-image">
+                <a class="thumbnail" href="/ht/6225908/most-frequently-asked-questions-html-template" style="width:260px; height: 180px;" title="Free HTML For Most Frequently Asked Questions"><img alt="Free HTML For Most Frequently Asked Questions" class="media-image lazyload noversion" data-src="https://images01.nicepagecdn.com/page/62/25/html-template-6225908.jpg" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" style="max-width:100%;" /></a>
+            </div>
+            <div class="page-title one-row ">
+                <a href="/ht/6225908/most-frequently-asked-questions-html-template" title="Free HTML For Most Frequently Asked Questions">Free HTML For Most Frequently Asked Questions</a>
+                            </div>
+        </li>
+        <li class="thumbnail-item title-one-row" data-height="0" style="width: 260px; height: 250px;" 
+            data-like = 10 >
+            <div class="page-image">
+                <a class="thumbnail" href="/ht/59994/your-success-depends-on-a-strategic-html-template" style="width:260px; height: 200px;" title="HTML Page Design For Your Success Depends On A Strategic"><img alt="HTML Page Design For Your Success Depends On A Strategic" class="media-image lazyload noversion" data-src="https://images01.nicepagecdn.com/page/59/99/html-template-59994.jpg" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" style="max-width:100%;" /></a>
+            </div>
+            <div class="page-title one-row ">
+                <a href="/ht/59994/your-success-depends-on-a-strategic-html-template" title="HTML Page Design For Your Success Depends On A Strategic">HTML Page Design For Your Success Depends On A Strategic</a>
+                            </div>
+        </li>
+        <li class="thumbnail-item title-one-row" data-height="0" style="width: 260px; height: 244px;" 
+            data-like = 19 >
+            <div class="page-image">
+                <a class="thumbnail" href="/ht/62353/ways-to-stop-aggressive-behaviour-html-template" style="width:260px; height: 194px;" title="HTML Landing For Ways To Stop Aggressive Behaviour"><img alt="HTML Landing For Ways To Stop Aggressive Behaviour" class="media-image lazyload noversion" data-src="https://images01.nicepagecdn.com/page/62/35/html-template-62353.jpg" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" style="max-width:100%;" /></a>
+            </div>
+            <div class="page-title one-row ">
+                <a href="/ht/62353/ways-to-stop-aggressive-behaviour-html-template" title="HTML Landing For Ways To Stop Aggressive Behaviour">HTML Landing For Ways To Stop Aggressive Behaviour</a>
+                            </div>
+        </li>
+            <li class="thumbnail-item" style="width: 260px; height: 420px;">
+                <div class="download-block " style="background-color: #363636; ">
+                        <img class="lazyload" data-src="//images01.nicepage.com/thumbs/a122014e1e8cdf24af08f98c/b99db2cc11f35f4eab449723/responsive-small-animation-dark_150.gif" alt="Mobile-Friendly Templates" />
+                    <div style="color: #ffffff;" class="download-title">Mobile-Friendly Templates</div>
+                    <a class="btn btn-lg download-btn" href="/download" type="button" rel="nofollow" style="background-color: #cd30c0;">Download</a>
+                </div>
+            </li>
+        <li class="thumbnail-item title-one-row" data-height="0" style="width: 260px; height: 270px;" 
+            data-like = 76 data-set = 19>
+            <div class="page-image">
+                <a class="thumbnail" href="/ht/6229625/we-are-an-award-winning-design-studio-html-template" style="width:260px; height: 220px;" title="We Are An Award Winning Design Studio - HTML Page Template"><img alt="We Are An Award Winning Design Studio - HTML Page Template" class="media-image lazyload noversion" data-src="https://images01.nicepagecdn.com/page/62/29/html-template-6229625.jpg" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" style="max-width:100%;" /></a>
+            </div>
+            <div class="page-title one-row ">
+                <a href="/ht/6229625/we-are-an-award-winning-design-studio-html-template" title="We Are An Award Winning Design Studio - HTML Page Template">We Are An Award Winning Design Studio - HTML Page Template</a>
+                            </div>
+        </li>
+        <li class="thumbnail-item title-one-row" data-height="0" style="width: 260px; height: 193px;" 
+            data-like = 373 data-set = 24>
+            <div class="page-image">
+                <a class="thumbnail" href="/ht/6210254/elevate-your-workout-experience-html-template" style="width:260px; height: 143px;" title="Elevate Your Workout Experience - Site With HTML Template Download"><img alt="Elevate Your Workout Experience - Site With HTML Template Download" class="media-image lazyload noversion" data-src="https://images01.nicepagecdn.com/page/62/10/html-template-6210254.jpg" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" style="max-width:100%;" /></a>
+            </div>
+            <div class="page-title one-row ">
+                <a href="/ht/6210254/elevate-your-workout-experience-html-template" title="Elevate Your Workout Experience - Site With HTML Template Download">Elevate Your Workout Experience - Site With HTML Template Download</a>
+                            </div>
+        </li>
+        <li class="thumbnail-item title-one-row" data-height="0" style="width: 260px; height: 234px;" 
+            data-like = 1317 data-set = 18>
+            <div class="page-image">
+                <a class="thumbnail" href="/ht/2757980/submission-form-html-template" style="width:260px; height: 184px;" title="Submission Form - Basic HTML Template"><img alt="Submission Form - Basic HTML Template" class="media-image lazyload noversion" data-src="https://images01.nicepagecdn.com/page/27/57/html-template-2757980.jpg" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" style="max-width:100%;" /></a>
+            </div>
+            <div class="page-title one-row ">
+                <a href="/ht/2757980/submission-form-html-template" title="Submission Form - Basic HTML Template">Submission Form - Basic HTML Template</a>
+                            </div>
+        </li>
+        <li class="thumbnail-item title-one-row" data-height="0" style="width: 260px; height: 736px;" 
+            data-like = 1042 >
+            <div class="page-image">
+                <a class="thumbnail" href="/ht/1692063/new-restaurant-html-template" style="width:260px; height: 686px;" title="New Restaurant - Website Builder Template"><img alt="New Restaurant - Website Builder Template" class="media-image lazyload noversion" data-src="https://images01.nicepagecdn.com/page/16/92/html-template-1692063.jpg" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" style="max-width:100%;" /></a>
+                    <a class="btn btn-default btn-sm expand-page-button pull-right page-more" href="#" data-url="https://images01.nicepagecdn.com/page/16/92/html-template-full-1692063.jpg">More ↓</a>
+            </div>
+            <div class="page-title one-row ">
+                <a href="/ht/1692063/new-restaurant-html-template" title="New Restaurant - Website Builder Template">New Restaurant - Website Builder Template</a>
+                            </div>
+        </li>
+        <li class="thumbnail-item title-one-row" data-height="0" style="width: 260px; height: 202px;" 
+            data-like = 2 >
+            <div class="page-image">
+                <a class="thumbnail" href="/ht/55054/art-and-design-studio-html-template" style="width:260px; height: 152px;" title="Site Template For Art And Design Studio"><img alt="Site Template For Art And Design Studio" class="media-image lazyload noversion" data-src="https://images01.nicepagecdn.com/page/55/05/html-template-55054.jpg" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" style="max-width:100%;" /></a>
+            </div>
+            <div class="page-title one-row ">
+                <a href="/ht/55054/art-and-design-studio-html-template" title="Site Template For Art And Design Studio">Site Template For Art And Design Studio</a>
+                            </div>
+        </li>
+        <li class="thumbnail-item title-one-row" data-height="0" style="width: 260px; height: 370px;" 
+            data-like = 431 data-set = 14>
+            <div class="page-image">
+                <a class="thumbnail" href="/ht/6137897/our-electricians-deliver-html-template" style="width:260px; height: 320px;" title="Free Download For Our Electricians Deliver Html Template"><img alt="Free Download For Our Electricians Deliver Html Template" class="media-image lazyload noversion" data-src="https://images01.nicepagecdn.com/page/61/37/html-template-6137897.jpg" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" style="max-width:100%;" /></a>
+                    <a class="btn btn-default btn-sm expand-page-button pull-right page-more" href="#" data-url="https://images01.nicepagecdn.com/page/61/37/html-template-full-6137897.jpg">More ↓</a>
+            </div>
+            <div class="page-title one-row ">
+                <a href="/ht/6137897/our-electricians-deliver-html-template" title="Free Download For Our Electricians Deliver Html Template">Free Download For Our Electricians Deliver Html Template</a>
+                            </div>
+        </li>
+        <li class="thumbnail-item title-one-row" data-height="0" style="width: 260px; height: 214px;" 
+            data-like = 18 >
+            <div class="page-image">
+                <a class="thumbnail" href="/ht/41374/creative-art-and-design-studio-html-template" style="width:260px; height: 164px;" title="Creative Art And Design Studio - HTML Template Download"><img alt="Creative Art And Design Studio - HTML Template Download" class="media-image lazyload noversion" data-src="https://images01.nicepagecdn.com/page/41/37/html-template-41374.jpg" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" style="max-width:100%;" /></a>
+            </div>
+            <div class="page-title one-row ">
+                <a href="/ht/41374/creative-art-and-design-studio-html-template" title="Creative Art And Design Studio - HTML Template Download">Creative Art And Design Studio - HTML Template Download</a>
+                            </div>
+        </li>
+        <li class="thumbnail-item title-one-row" data-height="0" style="width: 260px; height: 166px;" 
+            data-like = 6 >
+            <div class="page-image">
+                <a class="thumbnail" href="/ht/118714/travel-crazy-ideas-html-template" style="width:260px; height: 116px;" title="Travel Crazy Ideas - Responsive Website"><img alt="Travel Crazy Ideas - Responsive Website" class="media-image lazyload noversion" data-src="https://images01.nicepagecdn.com/page/11/87/html-template-118714.jpg" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" style="max-width:100%;" /></a>
+            </div>
+            <div class="page-title one-row ">
+                <a href="/ht/118714/travel-crazy-ideas-html-template" title="Travel Crazy Ideas - Responsive Website">Travel Crazy Ideas - Responsive Website</a>
+                            </div>
+        </li>
+        <li class="thumbnail-item title-one-row" data-height="0" style="width: 260px; height: 267px;" 
+            data-like = 13 >
+            <div class="page-image">
+                <a class="thumbnail" href="/ht/53697/mens-fashion-trends-html-template" style="width:260px; height: 217px;" title="Men&#39;S Fashion Trends - Modern Web Template"><img alt="Men&#39;S Fashion Trends - Modern Web Template" class="media-image lazyload noversion" data-src="https://images01.nicepagecdn.com/page/53/69/html-template-53697.jpg" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" style="max-width:100%;" /></a>
+            </div>
+            <div class="page-title one-row ">
+                <a href="/ht/53697/mens-fashion-trends-html-template" title="Men&#39;S Fashion Trends - Modern Web Template">Men'S Fashion Trends - Modern Web Template</a>
+                            </div>
+        </li>
+        <li class="thumbnail-item title-one-row" data-height="0" style="width: 260px; height: 255px;" 
+            data-like = 8 data-set = 23>
+            <div class="page-image">
+                <a class="thumbnail" href="/ht/2385709/green-cities-solutions-html-template" style="width:260px; height: 205px;" title="Green Cities Solutions - Free Template"><img alt="Green Cities Solutions - Free Template" class="media-image lazyload noversion" data-src="https://images01.nicepagecdn.com/page/23/85/html-template-2385709.jpg" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" style="max-width:100%;" /></a>
+            </div>
+            <div class="page-title one-row ">
+                <a href="/ht/2385709/green-cities-solutions-html-template" title="Green Cities Solutions - Free Template">Green Cities Solutions - Free Template</a>
+                            </div>
+        </li>
+            <li class="thumbnail-item" style="width: 260px; height: 420px;">
+                <div class="download-block white-block" style="background-color: #ffffff; ">
+                        <img class="lazyload" data-src="//images01.nicepage.com/thumbs/a122014e1e8cdf24af08f98c/42d0c92512c25ddbb07a0447/template-builder-color_150.gif" alt="Easy Template Builder" />
+                    <div style="color: #3c3c3c;" class="download-title">Easy Template Builder</div>
+                    <a class="btn btn-lg download-btn" href="/download" type="button" rel="nofollow" style="background-color: #ec311e;">Download</a>
+                </div>
+            </li>
+        <li class="thumbnail-item title-one-row" data-height="0" style="width: 260px; height: 152px;" 
+            data-like = 12 >
+            <div class="page-image">
+                <a class="thumbnail" href="/ht/56686/award-winning-tours-html-template" style="width:260px; height: 102px;" title="Award Winning Tours - Responsive HTML Template"><img alt="Award Winning Tours - Responsive HTML Template" class="media-image lazyload noversion" data-src="https://images01.nicepagecdn.com/page/56/68/html-template-56686.jpg" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" style="max-width:100%;" /></a>
+            </div>
+            <div class="page-title one-row ">
+                <a href="/ht/56686/award-winning-tours-html-template" title="Award Winning Tours - Responsive HTML Template">Award Winning Tours - Responsive HTML Template</a>
+                            </div>
+        </li>
+        <li class="thumbnail-item title-one-row" data-height="0" style="width: 260px; height: 189px;" 
+            data-like = 3743 >
+            <div class="page-image">
+                <a class="thumbnail" href="/ht/82368/contact-our-agency-html-template" style="width:260px; height: 139px;" title="Free Download For Contact Our Agency Html Template"><img alt="Free Download For Contact Our Agency Html Template" class="media-image lazyload noversion" data-src="https://images01.nicepagecdn.com/page/82/36/html-template-82368.jpg" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" style="max-width:100%;" /></a>
+            </div>
+            <div class="page-title one-row ">
+                <a href="/ht/82368/contact-our-agency-html-template" title="Free Download For Contact Our Agency Html Template">Free Download For Contact Our Agency Html Template</a>
+                            </div>
+        </li>
+        <li class="thumbnail-item title-one-row" data-height="0" style="width: 260px; height: 770px;" 
+            data-like = 4176 >
+            <div class="page-image">
+                <a class="thumbnail" href="/ht/1672591/a-good-quality-education-html-template" style="width:260px; height: 720px;" title="A Good Quality Education - HTML5 Template"><img alt="A Good Quality Education - HTML5 Template" class="media-image lazyload noversion" data-src="https://images01.nicepagecdn.com/page/16/72/html-template-1672591.jpg" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" style="max-width:100%;" /></a>
+                    <a class="btn btn-default btn-sm expand-page-button pull-right page-more" href="#" data-url="https://images01.nicepagecdn.com/page/16/72/html-template-full-1672591.jpg">More ↓</a>
+            </div>
+            <div class="page-title one-row ">
+                <a href="/ht/1672591/a-good-quality-education-html-template" title="A Good Quality Education - HTML5 Template">A Good Quality Education - HTML5 Template</a>
+                            </div>
+        </li>
+        <li class="thumbnail-item title-one-row" data-height="0" style="width: 260px; height: 192px;" 
+            data-like = 3 data-set = 22>
+            <div class="page-image">
+                <a class="thumbnail" href="/ht/240499/networks-and-communications-html-template" style="width:260px; height: 142px;" title="Free HTML For Networks And Communications"><img alt="Free HTML For Networks And Communications" class="media-image lazyload noversion" data-src="https://images01.nicepagecdn.com/page/24/04/html-template-240499.jpg" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" style="max-width:100%;" /></a>
+            </div>
+            <div class="page-title one-row ">
+                <a href="/ht/240499/networks-and-communications-html-template" title="Free HTML For Networks And Communications">Free HTML For Networks And Communications</a>
+                            </div>
+        </li>
+        <li class="thumbnail-item title-one-row" data-height="0" style="width: 260px; height: 273px;" 
+            data-like = 15 >
+            <div class="page-image">
+                <a class="thumbnail" href="/ht/49985/pilates-studio-html-template" style="width:260px; height: 223px;" title="Pilates Studio - Fully Responsive Template"><img alt="Pilates Studio - Fully Responsive Template" class="media-image lazyload noversion" data-src="https://images01.nicepagecdn.com/page/49/98/html-template-49985.jpg" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" style="max-width:100%;" /></a>
+            </div>
+            <div class="page-title one-row ">
+                <a href="/ht/49985/pilates-studio-html-template" title="Pilates Studio - Fully Responsive Template">Pilates Studio - Fully Responsive Template</a>
+                            </div>
+        </li>
+        <li class="thumbnail-item title-one-row" data-height="0" style="width: 260px; height: 296px;" 
+            data-like = 1400 data-set = 27>
+            <div class="page-image">
+                <a class="thumbnail" href="/ht/4070749/headings-and-texts-in-grid-repeater-html-template" style="width:260px; height: 246px;" title="Web Page For Headings And Texts In Grid Repeater"><img alt="Web Page For Headings And Texts In Grid Repeater" class="media-image lazyload noversion" data-src="https://images01.nicepagecdn.com/page/40/70/html-template-4070749.jpg" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" style="max-width:100%;" /></a>
+            </div>
+            <div class="page-title one-row ">
+                <a href="/ht/4070749/headings-and-texts-in-grid-repeater-html-template" title="Web Page For Headings And Texts In Grid Repeater">Web Page For Headings And Texts In Grid Repeater</a>
+                            </div>
+        </li>
+        <li class="thumbnail-item title-one-row" data-height="0" style="width: 260px; height: 209px;" 
+            data-like = 13 >
+            <div class="page-image">
+                <a class="thumbnail" href="/ht/53044/low-priced-sportswear-html-template" style="width:260px; height: 159px;" title="Low-Priced Sportswear - Web Template"><img alt="Low-Priced Sportswear - Web Template" class="media-image lazyload noversion" data-src="https://images01.nicepagecdn.com/page/53/04/html-template-53044.jpg" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" style="max-width:100%;" /></a>
+            </div>
+            <div class="page-title one-row ">
+                <a href="/ht/53044/low-priced-sportswear-html-template" title="Low-Priced Sportswear - Web Template">Low-Priced Sportswear - Web Template</a>
+                            </div>
+        </li>
+        <li class="thumbnail-item title-one-row" data-height="0" style="width: 260px; height: 219px;" 
+            data-like = 13 >
+            <div class="page-image">
+                <a class="thumbnail" href="/ht/49998/create-something-new-html-template" style="width:260px; height: 169px;" title="Create Something New - HTML Template Download"><img alt="Create Something New - HTML Template Download" class="media-image lazyload noversion" data-src="https://images01.nicepagecdn.com/page/49/99/html-template-49998.jpg" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" style="max-width:100%;" /></a>
+            </div>
+            <div class="page-title one-row ">
+                <a href="/ht/49998/create-something-new-html-template" title="Create Something New - HTML Template Download">Create Something New - HTML Template Download</a>
+                            </div>
+        </li>
+        <li class="thumbnail-item title-one-row" data-height="0" style="width: 260px; height: 616px;" 
+            data-like = 641 data-set = 13>
+            <div class="page-image">
+                <a class="thumbnail" href="/ht/6263265/complex-financial-planning-html-template" style="width:260px; height: 566px;" title="Page HTML For Complex Financial Planning"><img alt="Page HTML For Complex Financial Planning" class="media-image lazyload noversion" data-src="https://images01.nicepagecdn.com/page/62/63/html-template-6263265.jpg" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" style="max-width:100%;" /></a>
+                    <a class="btn btn-default btn-sm expand-page-button pull-right page-more" href="#" data-url="https://images01.nicepagecdn.com/page/62/63/html-template-full-6263265.jpg">More ↓</a>
+            </div>
+            <div class="page-title one-row ">
+                <a href="/ht/6263265/complex-financial-planning-html-template" title="Page HTML For Complex Financial Planning">Page HTML For Complex Financial Planning</a>
+                            </div>
+        </li>
+        <li class="thumbnail-item title-one-row" data-height="0" style="width: 260px; height: 580px;" 
+            data-like = 246 data-set = 13>
+            <div class="page-image">
+                <a class="thumbnail" href="/ht/6174818/the-digital-way-html-template" style="width:260px; height: 530px;" title="The Digital Way - HTML Template Code"><img alt="The Digital Way - HTML Template Code" class="media-image lazyload noversion" data-src="https://images01.nicepagecdn.com/page/61/74/html-template-6174818.jpg" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" style="max-width:100%;" /></a>
+                    <a class="btn btn-default btn-sm expand-page-button pull-right page-more" href="#" data-url="https://images01.nicepagecdn.com/page/61/74/html-template-full-6174818.jpg">More ↓</a>
+            </div>
+            <div class="page-title one-row ">
+                <a href="/ht/6174818/the-digital-way-html-template" title="The Digital Way - HTML Template Code">The Digital Way - HTML Template Code</a>
+                            </div>
+        </li>
+            <li class="thumbnail-item" style="width: 260px; height: 320px;">
+                <div class="download-block " style="background-color: #363636; ">
+                    <div style="color: #ffffff;" class="download-title">Free Website Builder Software</div>
+                    <a class="btn btn-lg download-btn" href="/download" type="button" rel="nofollow" style="background-color: #cd30c0;">Download</a>
+                </div>
+            </li>
+        <li class="thumbnail-item title-one-row" data-height="0" style="width: 260px; height: 670px;" 
+            data-like = 684 data-set = 14>
+            <div class="page-image">
+                <a class="thumbnail" href="/ht/3814298/experience-in-our-restaurant-html-template" style="width:260px; height: 620px;" title="Experience In Our Restaurant - Site Template"><img alt="Experience In Our Restaurant - Site Template" class="media-image lazyload noversion" data-src="https://images01.nicepagecdn.com/page/38/14/html-template-3814298.jpg" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" style="max-width:100%;" /></a>
+                    <a class="btn btn-default btn-sm expand-page-button pull-right page-more" href="#" data-url="https://images01.nicepagecdn.com/page/38/14/html-template-full-3814298.jpg">More ↓</a>
+            </div>
+            <div class="page-title one-row ">
+                <a href="/ht/3814298/experience-in-our-restaurant-html-template" title="Experience In Our Restaurant - Site Template">Experience In Our Restaurant - Site Template</a>
+                            </div>
+        </li>
+        <li class="thumbnail-item title-one-row" data-height="0" style="width: 260px; height: 800px;" 
+            data-like = 170 data-set = 21>
+            <div class="page-image">
+                <a class="thumbnail" href="/ht/6031448/we-measure-this-success-not-only-through-our-deliverables-html-template" style="width:260px; height: 750px;" title="We Measure This Success Not Only Through Our Deliverables - Basic HTML Template"><img alt="We Measure This Success Not Only Through Our Deliverables - Basic HTML Template" class="media-image lazyload noversion" data-src="https://images01.nicepagecdn.com/page/60/31/html-template-6031448.jpg" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" style="max-width:100%;" /></a>
+                    <a class="btn btn-default btn-sm expand-page-button pull-right page-more" href="#" data-url="https://images01.nicepagecdn.com/page/60/31/html-template-full-6031448.jpg">More ↓</a>
+            </div>
+            <div class="page-title one-row ">
+                <a href="/ht/6031448/we-measure-this-success-not-only-through-our-deliverables-html-template" title="We Measure This Success Not Only Through Our Deliverables - Basic HTML Template">We Measure This Success Not Only Through Our Deliverables - Basic HTML Template</a>
+                            </div>
+        </li>
+        <li class="thumbnail-item title-one-row" data-height="0" style="width: 260px; height: 971px;" 
+            data-like = 707 data-set = 18>
+            <div class="page-image">
+                <a class="thumbnail" href="/ht/6011097/we-are-leaders-in-industrial-business-html-template" style="width:260px; height: 921px;" title="HTML Landing For We Are Leaders In Industrial Business"><img alt="HTML Landing For We Are Leaders In Industrial Business" class="media-image lazyload noversion" data-src="https://images01.nicepagecdn.com/page/60/11/html-template-6011097.jpg" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" style="max-width:100%;" /></a>
+                    <a class="btn btn-default btn-sm expand-page-button pull-right page-more" href="#" data-url="https://images01.nicepagecdn.com/page/60/11/html-template-full-6011097.jpg">More ↓</a>
+            </div>
+            <div class="page-title one-row ">
+                <a href="/ht/6011097/we-are-leaders-in-industrial-business-html-template" title="HTML Landing For We Are Leaders In Industrial Business">HTML Landing For We Are Leaders In Industrial Business</a>
+                            </div>
+        </li>
+        <li class="thumbnail-item title-one-row" data-height="0" style="width: 260px; height: 200px;" 
+            data-like = 11 >
+            <div class="page-image">
+                <a class="thumbnail" href="/ht/60429/complete-brand-identity-html-template" style="width:260px; height: 150px;" title="Complete Brand Identity - Site Template"><img alt="Complete Brand Identity - Site Template" class="media-image lazyload noversion" data-src="https://images01.nicepagecdn.com/page/60/42/html-template-60429.jpg" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" style="max-width:100%;" /></a>
+            </div>
+            <div class="page-title one-row ">
+                <a href="/ht/60429/complete-brand-identity-html-template" title="Complete Brand Identity - Site Template">Complete Brand Identity - Site Template</a>
+                            </div>
+        </li>
+        <li class="thumbnail-item title-one-row" data-height="0" style="width: 260px; height: 181px;" 
+            data-like = 11 >
+            <div class="page-image">
+                <a class="thumbnail" href="/ht/160200/business-grow-story-html-template" style="width:260px; height: 131px;" title="Business Grow Story - Web Template"><img alt="Business Grow Story - Web Template" class="media-image lazyload noversion" data-src="https://images01.nicepagecdn.com/page/16/02/html-template-160200.jpg" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" style="max-width:100%;" /></a>
+            </div>
+            <div class="page-title one-row ">
+                <a href="/ht/160200/business-grow-story-html-template" title="Business Grow Story - Web Template">Business Grow Story - Web Template</a>
+                            </div>
+        </li>
+        <li class="thumbnail-item title-one-row" data-height="0" style="width: 260px; height: 240px;" 
+            data-like = 10 >
+            <div class="page-image">
+                <a class="thumbnail" href="/ht/56343/eco-habbits-for-help-the-planet-html-template" style="width:260px; height: 190px;" title="Web Design For Eco Habbits For Help The Planet"><img alt="Web Design For Eco Habbits For Help The Planet" class="media-image lazyload noversion" data-src="https://images01.nicepagecdn.com/page/56/34/html-template-56343.jpg" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" style="max-width:100%;" /></a>
+            </div>
+            <div class="page-title one-row ">
+                <a href="/ht/56343/eco-habbits-for-help-the-planet-html-template" title="Web Design For Eco Habbits For Help The Planet">Web Design For Eco Habbits For Help The Planet</a>
+                            </div>
+        </li>
+        <li class="thumbnail-item title-one-row" data-height="0" style="width: 260px; height: 620px;" 
+            data-like = 219 data-set = 15>
+            <div class="page-image">
+                <a class="thumbnail" href="/ht/6284200/social-media-design-html-template" style="width:260px; height: 570px;" title="Social Media Design - Landing Page Template"><img alt="Social Media Design - Landing Page Template" class="media-image lazyload noversion" data-src="https://images01.nicepagecdn.com/page/62/84/html-template-6284200.jpg" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" style="max-width:100%;" /></a>
+                    <a class="btn btn-default btn-sm expand-page-button pull-right page-more" href="#" data-url="https://images01.nicepagecdn.com/page/62/84/html-template-full-6284200.jpg">More ↓</a>
+            </div>
+            <div class="page-title one-row ">
+                <a href="/ht/6284200/social-media-design-html-template" title="Social Media Design - Landing Page Template">Social Media Design - Landing Page Template</a>
+                            </div>
+        </li>
+        <li class="thumbnail-item title-one-row" data-height="0" style="width: 260px; height: 167px;" 
+            data-like = 8 >
+            <div class="page-image">
+                <a class="thumbnail" href="/ht/134620/dog-walking-html-template" style="width:260px; height: 117px;" title="Dog Walking HTML Template"><img alt="Dog Walking HTML Template" class="media-image lazyload noversion" data-src="https://images01.nicepagecdn.com/page/13/46/html-template-134620.jpg" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" style="max-width:100%;" /></a>
+            </div>
+            <div class="page-title one-row ">
+                <a href="/ht/134620/dog-walking-html-template" title="Dog Walking HTML Template">Dog Walking HTML Template</a>
+                            </div>
+        </li>
+        <li class="thumbnail-item title-one-row" data-height="0" style="width: 260px; height: 224px;" 
+            data-like = 1323 >
+            <div class="page-image">
+                <a class="thumbnail" href="/ht/311969/contact-information-for-you-html-template" style="width:260px; height: 174px;" title="Contact Information For You HTML Template"><img alt="Contact Information For You HTML Template" class="media-image lazyload noversion" data-src="https://images01.nicepagecdn.com/page/31/19/html-template-311969.jpg" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" style="max-width:100%;" /></a>
+            </div>
+            <div class="page-title one-row ">
+                <a href="/ht/311969/contact-information-for-you-html-template" title="Contact Information For You HTML Template">Contact Information For You HTML Template</a>
+                            </div>
+        </li>
+        <li class="thumbnail-item title-one-row" data-height="0" style="width: 260px; height: 199px;" 
+            data-like = 1261 >
+            <div class="page-image">
+                <a class="thumbnail" href="/ht/1017939/welcome-to-our-company-html-template" style="width:260px; height: 149px;" title="Welcome To Our Company - HTML Page Template"><img alt="Welcome To Our Company - HTML Page Template" class="media-image lazyload noversion" data-src="https://images01.nicepagecdn.com/page/10/17/html-template-1017939.jpg" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" style="max-width:100%;" /></a>
+            </div>
+            <div class="page-title one-row ">
+                <a href="/ht/1017939/welcome-to-our-company-html-template" title="Welcome To Our Company - HTML Page Template">Welcome To Our Company - HTML Page Template</a>
+                            </div>
+        </li>
+            <li class="thumbnail-item" style="width: 260px; height: 460px;">
+                <div class="download-block white-block" style="background-color: #ffffff; ">
+                        <img class="lazyload" data-src="//images01.nicepage.com/thumbs/a122014e1e8cdf24af08f98c/de4b91b424635284ad7ea46f/templates-small-animation-color_150.gif" alt="The Biggest Template Collection" />
+                    <div style="color: #3c3c3c;" class="download-title">The Biggest Template Collection</div>
+                    <a class="btn btn-lg download-btn" href="/download" type="button" rel="nofollow" style="background-color: #ec311e;">Download</a>
+                </div>
+            </li>
+        <li class="thumbnail-item title-one-row" data-height="0" style="width: 260px; height: 228px;" 
+            data-like = 814 data-set = 16>
+            <div class="page-image">
+                <a class="thumbnail" href="/ht/6031130/organization-of-presentations-html-template" style="width:260px; height: 178px;" title="Organization Of Presentations - HTML Web Template"><img alt="Organization Of Presentations - HTML Web Template" class="media-image lazyload noversion" data-src="https://images01.nicepagecdn.com/page/60/31/html-template-6031130.jpg" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" style="max-width:100%;" /></a>
+            </div>
+            <div class="page-title one-row ">
+                <a href="/ht/6031130/organization-of-presentations-html-template" title="Organization Of Presentations - HTML Web Template">Organization Of Presentations - HTML Web Template</a>
+                            </div>
+        </li>
+        <li class="thumbnail-item title-one-row" data-height="0" style="width: 260px; height: 219px;" 
+            data-like = 1055 data-set = 28>
+            <div class="page-image">
+                <a class="thumbnail" href="/ht/3275935/we-have-been-baking-with-organic-grain-html-template" style="width:260px; height: 169px;" title="We Have Been Baking With Organic Grain - HTML5 Template"><img alt="We Have Been Baking With Organic Grain - HTML5 Template" class="media-image lazyload noversion" data-src="https://images01.nicepagecdn.com/page/32/75/html-template-3275935.jpg" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" style="max-width:100%;" /></a>
+            </div>
+            <div class="page-title one-row ">
+                <a href="/ht/3275935/we-have-been-baking-with-organic-grain-html-template" title="We Have Been Baking With Organic Grain - HTML5 Template">We Have Been Baking With Organic Grain - HTML5 Template</a>
+                            </div>
+        </li>
+        <li class="thumbnail-item title-one-row" data-height="0" style="width: 260px; height: 313px;" 
+            data-like = 917 >
+            <div class="page-image">
+                <a class="thumbnail" href="/ht/1124809/business-and-technology-consulting-html-template" style="width:260px; height: 263px;" title="Business And Technology Consulting - Best HTML Template"><img alt="Business And Technology Consulting - Best HTML Template" class="media-image lazyload noversion" data-src="https://images01.nicepagecdn.com/page/11/24/html-template-1124809.jpg" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" style="max-width:100%;" /></a>
+            </div>
+            <div class="page-title one-row ">
+                <a href="/ht/1124809/business-and-technology-consulting-html-template" title="Business And Technology Consulting - Best HTML Template">Business And Technology Consulting - Best HTML Template</a>
+                            </div>
+        </li>
+        <li class="thumbnail-item title-one-row" data-height="0" style="width: 260px; height: 213px;" 
+            data-like = 11 >
+            <div class="page-image">
+                <a class="thumbnail" href="/ht/41678/old-fashioned-customer-service-html-template" style="width:260px; height: 163px;" title="Landing Page For Old Fashioned Customer Service"><img alt="Landing Page For Old Fashioned Customer Service" class="media-image lazyload noversion" data-src="https://images01.nicepagecdn.com/page/41/67/html-template-41678.jpg" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" style="max-width:100%;" /></a>
+            </div>
+            <div class="page-title one-row ">
+                <a href="/ht/41678/old-fashioned-customer-service-html-template" title="Landing Page For Old Fashioned Customer Service">Landing Page For Old Fashioned Customer Service</a>
+                            </div>
+        </li>
+        <li class="thumbnail-item title-one-row" data-height="0" style="width: 260px; height: 798px;" 
+            data-like = 4316 >
+            <div class="page-image">
+                <a class="thumbnail" href="/ht/373318/mobile-application-development-html-template" style="width:260px; height: 748px;" title="Mobile Application Development - HTML Web Template"><img alt="Mobile Application Development - HTML Web Template" class="media-image lazyload noversion" data-src="https://images01.nicepagecdn.com/page/37/33/html-template-373318.jpg" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" style="max-width:100%;" /></a>
+                    <a class="btn btn-default btn-sm expand-page-button pull-right page-more" href="#" data-url="https://images01.nicepagecdn.com/page/37/33/html-template-full-373318.jpg">More ↓</a>
+            </div>
+            <div class="page-title one-row ">
+                <a href="/ht/373318/mobile-application-development-html-template" title="Mobile Application Development - HTML Web Template">Mobile Application Development - HTML Web Template</a>
+                            </div>
+        </li>
+        <li class="thumbnail-item title-one-row" data-height="0" style="width: 260px; height: 263px;" 
+            data-like = 79 data-set = 16>
+            <div class="page-image">
+                <a class="thumbnail" href="/ht/6187320/our-skilled-designers-html-template" style="width:260px; height: 213px;" title="Our Skilled Designers - Fully Responsive Template"><img alt="Our Skilled Designers - Fully Responsive Template" class="media-image lazyload noversion" data-src="https://images01.nicepagecdn.com/page/61/87/html-template-6187320.jpg" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" style="max-width:100%;" /></a>
+            </div>
+            <div class="page-title one-row ">
+                <a href="/ht/6187320/our-skilled-designers-html-template" title="Our Skilled Designers - Fully Responsive Template">Our Skilled Designers - Fully Responsive Template</a>
+                            </div>
+        </li>
+        <li class="thumbnail-item title-one-row" data-height="0" style="width: 260px; height: 460px;" 
+            data-like = 2696 >
+            <div class="page-image">
+                <a class="thumbnail" href="/ht/34994/global-modern-architecture-html-template" style="width:260px; height: 410px;" title="Bootstrap HTML For Global Modern Architecture"><img alt="Bootstrap HTML For Global Modern Architecture" class="media-image lazyload noversion" data-src="https://images01.nicepagecdn.com/page/34/99/html-template-34994.jpg" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" style="max-width:100%;" /></a>
+                    <a class="btn btn-default btn-sm expand-page-button pull-right page-more" href="#" data-url="https://images01.nicepagecdn.com/page/34/99/html-template-full-34994.jpg">More ↓</a>
+            </div>
+            <div class="page-title one-row ">
+                <a href="/ht/34994/global-modern-architecture-html-template" title="Bootstrap HTML For Global Modern Architecture">Bootstrap HTML For Global Modern Architecture</a>
+                            </div>
+        </li>
+        <li class="thumbnail-item title-one-row" data-height="0" style="width: 260px; height: 759px;" 
+            data-like = 1623 data-set = 32>
+            <div class="page-image">
+                <a class="thumbnail" href="/ht/5571212/restoring-hope-html-template" style="width:260px; height: 709px;" title="Restoring Hope - HTML Website Layout"><img alt="Restoring Hope - HTML Website Layout" class="media-image lazyload noversion" data-src="https://images01.nicepagecdn.com/page/55/71/html-template-5571212.jpg" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" style="max-width:100%;" /></a>
+                    <a class="btn btn-default btn-sm expand-page-button pull-right page-more" href="#" data-url="https://images01.nicepagecdn.com/page/55/71/html-template-full-5571212.jpg">More ↓</a>
+            </div>
+            <div class="page-title one-row ">
+                <a href="/ht/5571212/restoring-hope-html-template" title="Restoring Hope - HTML Website Layout">Restoring Hope - HTML Website Layout</a>
+                            </div>
+        </li>
+        <li class="thumbnail-item title-one-row" data-height="0" style="width: 260px; height: 209px;" 
+            data-like = 8 >
+            <div class="page-image">
+                <a class="thumbnail" href="/ht/2225303/most-profitable-business-ideas-html-template" style="width:260px; height: 159px;" title="Most Profitable Business Ideas - Fully Responsive Template"><img alt="Most Profitable Business Ideas - Fully Responsive Template" class="media-image lazyload noversion" data-src="https://images01.nicepagecdn.com/page/22/25/html-template-2225303.jpg" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" style="max-width:100%;" /></a>
+            </div>
+            <div class="page-title one-row ">
+                <a href="/ht/2225303/most-profitable-business-ideas-html-template" title="Most Profitable Business Ideas - Fully Responsive Template">Most Profitable Business Ideas - Fully Responsive Template</a>
+                            </div>
+        </li>
+        <li class="thumbnail-item title-one-row" data-height="0" style="width: 260px; height: 100px;" 
+            data-like = 11 >
+            <div class="page-image">
+                <a class="thumbnail" href="/ht/41897/centered-text-block-html-template" style="width:260px; height: 50px;" title="Centered Text Block HTML Template"><img alt="Centered Text Block HTML Template" class="media-image lazyload noversion" data-src="https://images01.nicepagecdn.com/page/41/89/html-template-41897.jpg" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" style="max-width:100%;" /></a>
+            </div>
+            <div class="page-title one-row ">
+                <a href="/ht/41897/centered-text-block-html-template" title="Centered Text Block HTML Template">Centered Text Block HTML Template</a>
+                            </div>
+        </li>
+            <li class="thumbnail-item" style="width: 260px; height: 420px;">
+                <div class="download-block " style="background-color: #363636; ">
+                        <img class="lazyload" data-src="//images01.nicepage.com/a122014e1e8cdf24af08f98c/20a096fad2aa5e36b4b599e4/drag-n-drop-small-animation-dark.gif" alt="Easy Drag and Drop Editor" />
+                    <div style="color: #ffffff;" class="download-title">Easy Drag and Drop Editor</div>
+                    <a class="btn btn-lg download-btn" href="/download" type="button" rel="nofollow" style="background-color: #cd30c0;">Download</a>
+                </div>
+            </li>
+        <li class="thumbnail-item title-one-row" data-height="0" style="width: 260px; height: 565px;" 
+            data-like = 147 data-set = 16>
+            <div class="page-image">
+                <a class="thumbnail" href="/ht/6349640/faq-on-web-design-html-template" style="width:260px; height: 515px;" title="Faq On Web Design - Premium Elements Template"><img alt="Faq On Web Design - Premium Elements Template" class="media-image lazyload noversion" data-src="https://images01.nicepagecdn.com/page/63/49/html-template-6349640.jpg" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" style="max-width:100%;" /></a>
+                    <a class="btn btn-default btn-sm expand-page-button pull-right page-more" href="#" data-url="https://images01.nicepagecdn.com/page/63/49/html-template-full-6349640.jpg">More ↓</a>
+            </div>
+            <div class="page-title one-row short-format">
+                <a href="/ht/6349640/faq-on-web-design-html-template" title="Faq On Web Design - Premium Elements Template">Faq On Web Design - Premium Elements Template</a>
+                            </div>
+                <div class="page-date">Sep 24, 2024</div>
+        </li>
+        <li class="thumbnail-item title-one-row" data-height="0" style="width: 260px; height: 204px;" 
+            data-like = 11 >
+            <div class="page-image">
+                <a class="thumbnail" href="/ht/54803/road-cycling-training-club-html-template" style="width:260px; height: 154px;" title="Road Cycling Training Club - Modern Web Template"><img alt="Road Cycling Training Club - Modern Web Template" class="media-image lazyload noversion" data-src="https://images01.nicepagecdn.com/page/54/80/html-template-54803.jpg" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" style="max-width:100%;" /></a>
+            </div>
+            <div class="page-title one-row ">
+                <a href="/ht/54803/road-cycling-training-club-html-template" title="Road Cycling Training Club - Modern Web Template">Road Cycling Training Club - Modern Web Template</a>
+                            </div>
+        </li>
+        <li class="thumbnail-item title-one-row" data-height="0" style="width: 260px; height: 208px;" 
+            data-like = 10 >
+            <div class="page-image">
+                <a class="thumbnail" href="/ht/858637/morning-ritual-html-template" style="width:260px; height: 158px;" title="Morning Ritual - HTML Template"><img alt="Morning Ritual - HTML Template" class="media-image lazyload noversion" data-src="https://images01.nicepagecdn.com/page/85/86/html-template-858637.jpg" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" style="max-width:100%;" /></a>
+            </div>
+            <div class="page-title one-row ">
+                <a href="/ht/858637/morning-ritual-html-template" title="Morning Ritual - HTML Template">Morning Ritual - HTML Template</a>
+                            </div>
+        </li>
+        <li class="thumbnail-item title-one-row" data-height="0" style="width: 260px; height: 257px;" 
+            data-like = 14 >
+            <div class="page-image">
+                <a class="thumbnail" href="/ht/52749/islan-seas-resort-html-template" style="width:260px; height: 207px;" title="Free HTML For Islan Seas Resort"><img alt="Free HTML For Islan Seas Resort" class="media-image lazyload noversion" data-src="https://images01.nicepagecdn.com/page/52/74/html-template-52749.jpg" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" style="max-width:100%;" /></a>
+            </div>
+            <div class="page-title one-row ">
+                <a href="/ht/52749/islan-seas-resort-html-template" title="Free HTML For Islan Seas Resort">Free HTML For Islan Seas Resort</a>
+                            </div>
+        </li>
+        <li class="thumbnail-item title-one-row" data-height="0" style="width: 260px; height: 738px;" 
+            data-like = 1920 data-set = 15>
+            <div class="page-image">
+                <a class="thumbnail" href="/ht/5707828/grilled-skeewers-html-template" style="width:260px; height: 688px;" title="Bootstrap HTML For Grilled Skeewers"><img alt="Bootstrap HTML For Grilled Skeewers" class="media-image lazyload noversion" data-src="https://images01.nicepagecdn.com/page/57/07/html-template-5707828.jpg" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" style="max-width:100%;" /></a>
+                    <a class="btn btn-default btn-sm expand-page-button pull-right page-more" href="#" data-url="https://images01.nicepagecdn.com/page/57/07/html-template-full-5707828.jpg">More ↓</a>
+            </div>
+            <div class="page-title one-row ">
+                <a href="/ht/5707828/grilled-skeewers-html-template" title="Bootstrap HTML For Grilled Skeewers">Bootstrap HTML For Grilled Skeewers</a>
+                            </div>
+        </li>
+        <li class="thumbnail-item title-one-row" data-height="0" style="width: 260px; height: 227px;" 
+            data-like = 5 >
+            <div class="page-image">
+                <a class="thumbnail" href="/ht/74033/10-week-running-program-html-template" style="width:260px; height: 177px;" title="10-Week Running Program HTML Template"><img alt="10-Week Running Program HTML Template" class="media-image lazyload noversion" data-src="https://images01.nicepagecdn.com/page/74/03/html-template-74033.jpg" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" style="max-width:100%;" /></a>
+            </div>
+            <div class="page-title one-row ">
+                <a href="/ht/74033/10-week-running-program-html-template" title="10-Week Running Program HTML Template">10-Week Running Program HTML Template</a>
+                            </div>
+        </li>
+        <li class="thumbnail-item title-one-row" data-height="0" style="width: 260px; height: 176px;" 
+            data-like = 5 >
+            <div class="page-image">
+                <a class="thumbnail" href="/ht/95530/doing-the-right-things-html-template" style="width:260px; height: 126px;" title="Doing The Right Things - Free Website Template"><img alt="Doing The Right Things - Free Website Template" class="media-image lazyload noversion" data-src="https://images01.nicepagecdn.com/page/95/53/html-template-95530.jpg" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" style="max-width:100%;" /></a>
+            </div>
+            <div class="page-title one-row ">
+                <a href="/ht/95530/doing-the-right-things-html-template" title="Doing The Right Things - Free Website Template">Doing The Right Things - Free Website Template</a>
+                            </div>
+        </li>
+        <li class="thumbnail-item title-one-row" data-height="0" style="width: 260px; height: 197px;" 
+            data-like = 166 data-set = 15>
+            <div class="page-image">
+                <a class="thumbnail" href="/ht/6001751/light-housekeeping-html-template" style="width:260px; height: 147px;" title="Design Template For Light Housekeeping"><img alt="Design Template For Light Housekeeping" class="media-image lazyload noversion" data-src="https://images01.nicepagecdn.com/page/60/01/html-template-6001751.jpg" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" style="max-width:100%;" /></a>
+            </div>
+            <div class="page-title one-row ">
+                <a href="/ht/6001751/light-housekeeping-html-template" title="Design Template For Light Housekeeping">Design Template For Light Housekeeping</a>
+                            </div>
+        </li>
+        <li class="thumbnail-item title-one-row" data-height="0" style="width: 260px; height: 794px;" 
+            data-like = 872 data-set = 19>
+            <div class="page-image">
+                <a class="thumbnail" href="/ht/6229605/growth-marketing-and-sales-html-template" style="width:260px; height: 744px;" title="Growth, Marketing And Sales - Site With HTML Template Download"><img alt="Growth, Marketing And Sales - Site With HTML Template Download" class="media-image lazyload noversion" data-src="https://images01.nicepagecdn.com/page/62/29/html-template-6229605.jpg" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" style="max-width:100%;" /></a>
+                    <a class="btn btn-default btn-sm expand-page-button pull-right page-more" href="#" data-url="https://images01.nicepagecdn.com/page/62/29/html-template-full-6229605.jpg">More ↓</a>
+            </div>
+            <div class="page-title one-row ">
+                <a href="/ht/6229605/growth-marketing-and-sales-html-template" title="Growth, Marketing And Sales - Site With HTML Template Download">Growth, Marketing And Sales - Site With HTML Template Download</a>
+                            </div>
+        </li>
+        <li class="thumbnail-item title-one-row" data-height="0" style="width: 260px; height: 684px;" 
+            data-like = 6469 >
+            <div class="page-image">
+                <a class="thumbnail" href="/ht/254603/learning-is-a-lifelong-process-html-template" style="width:260px; height: 634px;" title="Learning Is A Lifelong Process - Responsive HTML5 Template"><img alt="Learning Is A Lifelong Process - Responsive HTML5 Template" class="media-image lazyload noversion" data-src="https://images01.nicepagecdn.com/page/25/46/html-template-254603.jpg" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" style="max-width:100%;" /></a>
+                    <a class="btn btn-default btn-sm expand-page-button pull-right page-more" href="#" data-url="https://images01.nicepagecdn.com/page/25/46/html-template-full-254603.jpg">More ↓</a>
+            </div>
+            <div class="page-title one-row ">
+                <a href="/ht/254603/learning-is-a-lifelong-process-html-template" title="Learning Is A Lifelong Process - Responsive HTML5 Template">Learning Is A Lifelong Process - Responsive HTML5 Template</a>
+                            </div>
+        </li>
+            <li class="thumbnail-item" style="width: 260px; height: 280px;">
+                <div class="download-block white-block" style="background-color: #ffffff; ">
+                    <div style="color: #3c3c3c;" class="download-title">Customize Any Template</div>
+                    <a class="btn btn-lg download-btn" href="/download" type="button" rel="nofollow" style="background-color: #ec311e;">Download</a>
+                </div>
+            </li>
+        <li class="thumbnail-item title-one-row" data-height="0" style="width: 260px; height: 193px;" 
+            data-like = 6 >
+            <div class="page-image">
+                <a class="thumbnail" href="/ht/232236/natural-shapes-and-textures-html-template" style="width:260px; height: 143px;" title="Natural Shapes And Textures - Responsive HTML5 Template"><img alt="Natural Shapes And Textures - Responsive HTML5 Template" class="media-image lazyload noversion" data-src="https://images01.nicepagecdn.com/page/23/22/html-template-232236.jpg" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" style="max-width:100%;" /></a>
+            </div>
+            <div class="page-title one-row ">
+                <a href="/ht/232236/natural-shapes-and-textures-html-template" title="Natural Shapes And Textures - Responsive HTML5 Template">Natural Shapes And Textures - Responsive HTML5 Template</a>
+                            </div>
+        </li>
+        <li class="thumbnail-item title-one-row" data-height="0" style="width: 260px; height: 320px;" 
+            data-like = 453 data-set = 21>
+            <div class="page-image">
+                <a class="thumbnail" href="/ht/6276481/interior-design-excellence-html-template" style="width:260px; height: 270px;" title="Interior Design Excellence - Responsive Website"><img alt="Interior Design Excellence - Responsive Website" class="media-image lazyload noversion" data-src="https://images01.nicepagecdn.com/page/62/76/html-template-6276481.jpg" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" style="max-width:100%;" /></a>
+            </div>
+            <div class="page-title one-row ">
+                <a href="/ht/6276481/interior-design-excellence-html-template" title="Interior Design Excellence - Responsive Website">Interior Design Excellence - Responsive Website</a>
+                            </div>
+        </li>
+        <li class="thumbnail-item title-one-row" data-height="0" style="width: 260px; height: 192px;" 
+            data-like = 10 >
+            <div class="page-image">
+                <a class="thumbnail" href="/ht/42534/company-growth-strategy-html-template" style="width:260px; height: 142px;" title="Design Template For Company Growth Strategy"><img alt="Design Template For Company Growth Strategy" class="media-image lazyload noversion" data-src="https://images01.nicepagecdn.com/page/42/53/html-template-42534.jpg" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" style="max-width:100%;" /></a>
+            </div>
+            <div class="page-title one-row ">
+                <a href="/ht/42534/company-growth-strategy-html-template" title="Design Template For Company Growth Strategy">Design Template For Company Growth Strategy</a>
+                            </div>
+        </li>
+        <li class="thumbnail-item title-one-row" data-height="0" style="width: 260px; height: 198px;" 
+            data-like = 9 >
+            <div class="page-image">
+                <a class="thumbnail" href="/ht/59997/dog-trainers-programs-html-template" style="width:260px; height: 148px;" title="Dog Trainers Programs - HTML5 Template"><img alt="Dog Trainers Programs - HTML5 Template" class="media-image lazyload noversion" data-src="https://images01.nicepagecdn.com/page/59/99/html-template-59997.jpg" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" style="max-width:100%;" /></a>
+            </div>
+            <div class="page-title one-row ">
+                <a href="/ht/59997/dog-trainers-programs-html-template" title="Dog Trainers Programs - HTML5 Template">Dog Trainers Programs - HTML5 Template</a>
+                            </div>
+        </li>
+        <li class="thumbnail-item title-one-row" data-height="0" style="width: 260px; height: 195px;" 
+            data-like = 7 >
+            <div class="page-image">
+                <a class="thumbnail" href="/ht/125879/adventure-is-worthwhile-html-template" style="width:260px; height: 145px;" title="HTML Page For Adventure Is Worthwhile"><img alt="HTML Page For Adventure Is Worthwhile" class="media-image lazyload noversion" data-src="https://images01.nicepagecdn.com/page/12/58/html-template-125879.jpg" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" style="max-width:100%;" /></a>
+            </div>
+            <div class="page-title one-row ">
+                <a href="/ht/125879/adventure-is-worthwhile-html-template" title="HTML Page For Adventure Is Worthwhile">HTML Page For Adventure Is Worthwhile</a>
+                            </div>
+        </li>
+        <li class="thumbnail-item title-one-row" data-height="0" style="width: 260px; height: 208px;" 
+            data-like = 13 >
+            <div class="page-image">
+                <a class="thumbnail" href="/ht/70864/beautiful-childhood-memories-html-template" style="width:260px; height: 158px;" title="Beautiful Childhood Memories HTML Template"><img alt="Beautiful Childhood Memories HTML Template" class="media-image lazyload noversion" data-src="https://images01.nicepagecdn.com/page/70/86/html-template-70864.jpg" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" style="max-width:100%;" /></a>
+            </div>
+            <div class="page-title one-row ">
+                <a href="/ht/70864/beautiful-childhood-memories-html-template" title="Beautiful Childhood Memories HTML Template">Beautiful Childhood Memories HTML Template</a>
+                            </div>
+        </li>
+        <li class="thumbnail-item title-one-row" data-height="0" style="width: 260px; height: 229px;" 
+            data-like = 2074 data-set = 12>
+            <div class="page-image">
+                <a class="thumbnail" href="/ht/4333622/increase-sales-html-template" style="width:260px; height: 179px;" title="HTML Site For Increase Sales"><img alt="HTML Site For Increase Sales" class="media-image lazyload noversion" data-src="https://images01.nicepagecdn.com/page/43/33/html-template-4333622.jpg" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" style="max-width:100%;" /></a>
+            </div>
+            <div class="page-title one-row ">
+                <a href="/ht/4333622/increase-sales-html-template" title="HTML Site For Increase Sales">HTML Site For Increase Sales</a>
+                            </div>
+        </li>
+        <li class="thumbnail-item title-one-row" data-height="0" style="width: 260px; height: 137px;" 
+            data-like = 16 >
+            <div class="page-image">
+                <a class="thumbnail" href="/ht/40918/adventure-begins-html-template" style="width:260px; height: 87px;" title="Adventure Begins - Simple HTML Template"><img alt="Adventure Begins - Simple HTML Template" class="media-image lazyload noversion" data-src="https://images01.nicepagecdn.com/page/40/91/html-template-40918.jpg" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" style="max-width:100%;" /></a>
+            </div>
+            <div class="page-title one-row ">
+                <a href="/ht/40918/adventure-begins-html-template" title="Adventure Begins - Simple HTML Template">Adventure Begins - Simple HTML Template</a>
+                            </div>
+        </li>
+        <li class="thumbnail-item title-one-row" data-height="0" style="width: 260px; height: 206px;" 
+            data-like = 8 >
+            <div class="page-image">
+                <a class="thumbnail" href="/ht/53997/we-create-interesting-design-html-template" style="width:260px; height: 156px;" title="We Create Interesting Design - HTML Template"><img alt="We Create Interesting Design - HTML Template" class="media-image lazyload noversion" data-src="https://images01.nicepagecdn.com/page/53/99/html-template-53997.jpg" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" style="max-width:100%;" /></a>
+            </div>
+            <div class="page-title one-row ">
+                <a href="/ht/53997/we-create-interesting-design-html-template" title="We Create Interesting Design - HTML Template">We Create Interesting Design - HTML Template</a>
+                            </div>
+        </li>
+        <li class="thumbnail-item title-one-row" data-height="0" style="width: 260px; height: 759px;" 
+            data-like = 1580 data-set = 30>
+            <div class="page-image">
+                <a class="thumbnail" href="/ht/5252569/barber-team-html-template" style="width:260px; height: 709px;" title="Barber Team - Site Template"><img alt="Barber Team - Site Template" class="media-image lazyload noversion" data-src="https://images01.nicepagecdn.com/page/52/52/html-template-5252569.jpg" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" style="max-width:100%;" /></a>
+                    <a class="btn btn-default btn-sm expand-page-button pull-right page-more" href="#" data-url="https://images01.nicepagecdn.com/page/52/52/html-template-full-5252569.jpg">More ↓</a>
+            </div>
+            <div class="page-title one-row ">
+                <a href="/ht/5252569/barber-team-html-template" title="Barber Team - Site Template">Barber Team - Site Template</a>
+                            </div>
+        </li>
+            <li class="thumbnail-item" style="width: 260px; height: 420px;">
+                <div class="download-block " style="background-color: #363636; ">
+                        <img class="lazyload" data-src="//images01.nicepage.com/thumbs/a122014e1e8cdf24af08f98c/8739790df40451e683e5a152/templates-small-animation-dark_150.gif" alt="10 000+ Website Templates" />
+                    <div style="color: #ffffff;" class="download-title">10 000+ Website Templates</div>
+                    <a class="btn btn-lg download-btn" href="/download" type="button" rel="nofollow" style="background-color: #cd30c0;">Download</a>
+                </div>
+            </li>
+        <li class="thumbnail-item title-one-row" data-height="0" style="width: 260px; height: 686px;" 
+            data-like = 856 data-set = 22>
+            <div class="page-image">
+                <a class="thumbnail" href="/ht/535587/innovation-company-html-template" style="width:260px; height: 636px;" title="Design Template For Innovation Company"><img alt="Design Template For Innovation Company" class="media-image lazyload noversion" data-src="https://images01.nicepagecdn.com/page/53/55/html-template-535587.jpg" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" style="max-width:100%;" /></a>
+                    <a class="btn btn-default btn-sm expand-page-button pull-right page-more" href="#" data-url="https://images01.nicepagecdn.com/page/53/55/html-template-full-535587.jpg">More ↓</a>
+            </div>
+            <div class="page-title one-row ">
+                <a href="/ht/535587/innovation-company-html-template" title="Design Template For Innovation Company">Design Template For Innovation Company</a>
+                            </div>
+        </li>
+        <li class="thumbnail-item title-one-row" data-height="0" style="width: 260px; height: 254px;" 
+            data-like = 380 data-set = 17>
+            <div class="page-image">
+                <a class="thumbnail" href="/ht/6091457/creative-and-branding-solutions-html-template" style="width:260px; height: 204px;" title="Free Download For Creative And Branding Solutions Html Template"><img alt="Free Download For Creative And Branding Solutions Html Template" class="media-image lazyload noversion" data-src="https://images01.nicepagecdn.com/page/60/91/html-template-6091457.jpg" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" style="max-width:100%;" /></a>
+            </div>
+            <div class="page-title one-row ">
+                <a href="/ht/6091457/creative-and-branding-solutions-html-template" title="Free Download For Creative And Branding Solutions Html Template">Free Download For Creative And Branding Solutions Html Template</a>
+                            </div>
+        </li>
+        <li class="thumbnail-item title-one-row" data-height="0" style="width: 260px; height: 261px;" 
+            data-like = 13 data-set = 18>
+            <div class="page-image">
+                <a class="thumbnail" href="/ht/429208/branding-your-creative-business-html-template" style="width:260px; height: 211px;" title="Branding Your Creative Business - HTML Template Download"><img alt="Branding Your Creative Business - HTML Template Download" class="media-image lazyload noversion" data-src="https://images01.nicepagecdn.com/page/42/92/html-template-429208.jpg" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" style="max-width:100%;" /></a>
+            </div>
+            <div class="page-title one-row ">
+                <a href="/ht/429208/branding-your-creative-business-html-template" title="Branding Your Creative Business - HTML Template Download">Branding Your Creative Business - HTML Template Download</a>
+                            </div>
+        </li>
+        <li class="thumbnail-item title-one-row" data-height="0" style="width: 260px; height: 198px;" 
+            data-like = 12 >
+            <div class="page-image">
+                <a class="thumbnail" href="/ht/56367/care-tips-html-template" style="width:260px; height: 148px;" title="Care Tips - Web Template"><img alt="Care Tips - Web Template" class="media-image lazyload noversion" data-src="https://images01.nicepagecdn.com/page/56/36/html-template-56367.jpg" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" style="max-width:100%;" /></a>
+            </div>
+            <div class="page-title one-row ">
+                <a href="/ht/56367/care-tips-html-template" title="Care Tips - Web Template">Care Tips - Web Template</a>
+                            </div>
+        </li>
+        <li class="thumbnail-item title-one-row" data-height="0" style="width: 260px; height: 792px;" 
+            data-like = 199 data-set = 20>
+            <div class="page-image">
+                <a class="thumbnail" href="/ht/5876852/grow-your-brand-with-our-studio-html-template" style="width:260px; height: 742px;" title="Grow Your Brand With Our Studio HTML Template"><img alt="Grow Your Brand With Our Studio HTML Template" class="media-image lazyload noversion" data-src="https://images01.nicepagecdn.com/page/58/76/html-template-5876852.jpg" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" style="max-width:100%;" /></a>
+                    <a class="btn btn-default btn-sm expand-page-button pull-right page-more" href="#" data-url="https://images01.nicepagecdn.com/page/58/76/html-template-full-5876852.jpg">More ↓</a>
+            </div>
+            <div class="page-title one-row ">
+                <a href="/ht/5876852/grow-your-brand-with-our-studio-html-template" title="Grow Your Brand With Our Studio HTML Template">Grow Your Brand With Our Studio HTML Template</a>
+                            </div>
+        </li>
+        <li class="thumbnail-item title-one-row" data-height="0" style="width: 260px; height: 187px;" 
+            data-like = 17 >
+            <div class="page-image">
+                <a class="thumbnail" href="/ht/52411/informaton-about-top-university-html-template" style="width:260px; height: 137px;" title="Informaton About Top University - HTML And CSS Template"><img alt="Informaton About Top University - HTML And CSS Template" class="media-image lazyload noversion" data-src="https://images01.nicepagecdn.com/page/52/41/html-template-52411.jpg" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" style="max-width:100%;" /></a>
+            </div>
+            <div class="page-title one-row ">
+                <a href="/ht/52411/informaton-about-top-university-html-template" title="Informaton About Top University - HTML And CSS Template">Informaton About Top University - HTML And CSS Template</a>
+                            </div>
+        </li>
+        <li class="thumbnail-item title-one-row" data-height="0" style="width: 260px; height: 142px;" 
+            data-like = 285 data-set = 19>
+            <div class="page-image">
+                <a class="thumbnail" href="/ht/6208056/keep-updated-html-template" style="width:260px; height: 92px;" title="Keep Updated - HTML Code Template"><img alt="Keep Updated - HTML Code Template" class="media-image lazyload noversion" data-src="https://images01.nicepagecdn.com/page/62/08/html-template-6208056.jpg" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" style="max-width:100%;" /></a>
+            </div>
+            <div class="page-title one-row ">
+                <a href="/ht/6208056/keep-updated-html-template" title="Keep Updated - HTML Code Template">Keep Updated - HTML Code Template</a>
+                            </div>
+        </li>
+        <li class="thumbnail-item title-one-row" data-height="0" style="width: 260px; height: 233px;" 
+            data-like = 925 >
+            <div class="page-image">
+                <a class="thumbnail" href="/ht/981443/online-university-html-template" style="width:260px; height: 183px;" title="Online University - HTML Template"><img alt="Online University - HTML Template" class="media-image lazyload noversion" data-src="https://images01.nicepagecdn.com/page/98/14/html-template-981443.jpg" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" style="max-width:100%;" /></a>
+            </div>
+            <div class="page-title one-row ">
+                <a href="/ht/981443/online-university-html-template" title="Online University - HTML Template">Online University - HTML Template</a>
+                            </div>
+        </li>
+        <li class="thumbnail-item title-one-row" data-height="0" style="width: 260px; height: 820px;" 
+            data-like = 1133 >
+            <div class="page-image">
+                <a class="thumbnail" href="/ht/902048/commercial-general-contractor-html-template" style="width:260px; height: 770px;" title="Commercial General Contractor - HTML And CSS Template"><img alt="Commercial General Contractor - HTML And CSS Template" class="media-image lazyload noversion" data-src="https://images01.nicepagecdn.com/page/90/20/html-template-902048.jpg" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" style="max-width:100%;" /></a>
+                    <a class="btn btn-default btn-sm expand-page-button pull-right page-more" href="#" data-url="https://images01.nicepagecdn.com/page/90/20/html-template-full-902048.jpg">More ↓</a>
+            </div>
+            <div class="page-title one-row ">
+                <a href="/ht/902048/commercial-general-contractor-html-template" title="Commercial General Contractor - HTML And CSS Template">Commercial General Contractor - HTML And CSS Template</a>
+                            </div>
+        </li>
+        <li class="thumbnail-item title-one-row" data-height="0" style="width: 260px; height: 190px;" 
+            data-like = 8 >
+            <div class="page-image">
+                <a class="thumbnail" href="/ht/57385/our-business-coach-html-template" style="width:260px; height: 140px;" title="Landing Page For Our Business Coach"><img alt="Landing Page For Our Business Coach" class="media-image lazyload noversion" data-src="https://images01.nicepagecdn.com/page/57/38/html-template-57385.jpg" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" style="max-width:100%;" /></a>
+            </div>
+            <div class="page-title one-row ">
+                <a href="/ht/57385/our-business-coach-html-template" title="Landing Page For Our Business Coach">Landing Page For Our Business Coach</a>
+                            </div>
+        </li>
+            <li class="thumbnail-item" style="width: 260px; height: 280px;">
+                <div class="download-block white-block" style="background-color: #ffffff; ">
+                    <div style="color: #3c3c3c;" class="download-title">Build Website with no Coding</div>
+                    <a class="btn btn-lg download-btn" href="/download" type="button" rel="nofollow" style="background-color: #ec311e;">Download</a>
+                </div>
+            </li>
+        <li class="thumbnail-item title-one-row" data-height="0" style="width: 260px; height: 194px;" 
+            data-like = 17 >
+            <div class="page-image">
+                <a class="thumbnail" href="/ht/52139/modern-architecture-html-template" style="width:260px; height: 144px;" title="Modern Architecture - Fully Responsive Template"><img alt="Modern Architecture - Fully Responsive Template" class="media-image lazyload noversion" data-src="https://images01.nicepagecdn.com/page/52/13/html-template-52139.jpg" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" style="max-width:100%;" /></a>
+            </div>
+            <div class="page-title one-row ">
+                <a href="/ht/52139/modern-architecture-html-template" title="Modern Architecture - Fully Responsive Template">Modern Architecture - Fully Responsive Template</a>
+                            </div>
+        </li>
+        <li class="thumbnail-item title-one-row" data-height="0" style="width: 260px; height: 213px;" 
+            data-like = 7 >
+            <div class="page-image">
+                <a class="thumbnail" href="/ht/57288/business-solutions-html-template" style="width:260px; height: 163px;" title="Free HTML For Business Solutions"><img alt="Free HTML For Business Solutions" class="media-image lazyload noversion" data-src="https://images01.nicepagecdn.com/page/57/28/html-template-57288.jpg" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" style="max-width:100%;" /></a>
+            </div>
+            <div class="page-title one-row ">
+                <a href="/ht/57288/business-solutions-html-template" title="Free HTML For Business Solutions">Free HTML For Business Solutions</a>
+                            </div>
+        </li>
+        <li class="thumbnail-item title-one-row" data-height="0" style="width: 260px; height: 238px;" 
+            data-like = 13 >
+            <div class="page-image">
+                <a class="thumbnail" href="/ht/61771/supporting-great-brands-html-template" style="width:260px; height: 188px;" title="Supporting Great Brands - HTML Website Layout"><img alt="Supporting Great Brands - HTML Website Layout" class="media-image lazyload noversion" data-src="https://images01.nicepagecdn.com/page/61/77/html-template-61771.jpg" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" style="max-width:100%;" /></a>
+            </div>
+            <div class="page-title one-row ">
+                <a href="/ht/61771/supporting-great-brands-html-template" title="Supporting Great Brands - HTML Website Layout">Supporting Great Brands - HTML Website Layout</a>
+                            </div>
+        </li>
+        <li class="thumbnail-item title-one-row" data-height="0" style="width: 260px; height: 253px;" 
+            data-like = 14 >
+            <div class="page-image">
+                <a class="thumbnail" href="/ht/67199/benefits-of-exercising-in-a-gym-html-template" style="width:260px; height: 203px;" title="Benefits Of Exercising In A Gym - Free HTML Template"><img alt="Benefits Of Exercising In A Gym - Free HTML Template" class="media-image lazyload noversion" data-src="https://images01.nicepagecdn.com/page/67/19/html-template-67199.jpg" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" style="max-width:100%;" /></a>
+            </div>
+            <div class="page-title one-row ">
+                <a href="/ht/67199/benefits-of-exercising-in-a-gym-html-template" title="Benefits Of Exercising In A Gym - Free HTML Template">Benefits Of Exercising In A Gym - Free HTML Template</a>
+                            </div>
+        </li>
+        <li class="thumbnail-item title-one-row" data-height="0" style="width: 260px; height: 1022px;" 
+            data-like = 171 data-set = 13>
+            <div class="page-image">
+                <a class="thumbnail" href="/ht/6224867/client-success-stories-html-template" style="width:260px; height: 972px;" title="Client Success Stories - HTML Web Page Template"><img alt="Client Success Stories - HTML Web Page Template" class="media-image lazyload noversion" data-src="https://images01.nicepagecdn.com/page/62/24/html-template-6224867.jpg" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" style="max-width:100%;" /></a>
+                    <a class="btn btn-default btn-sm expand-page-button pull-right page-more" href="#" data-url="https://images01.nicepagecdn.com/page/62/24/html-template-full-6224867.jpg">More ↓</a>
+            </div>
+            <div class="page-title one-row ">
+                <a href="/ht/6224867/client-success-stories-html-template" title="Client Success Stories - HTML Web Page Template">Client Success Stories - HTML Web Page Template</a>
+                            </div>
+        </li>
+        <li class="thumbnail-item title-one-row" data-height="0" style="width: 260px; height: 663px;" 
+            data-like = 2447 >
+            <div class="page-image">
+                <a class="thumbnail" href="/ht/1790901/agency-specializing-in-social-media-html-template" style="width:260px; height: 613px;" title="HTML Landing For Agency Specializing In Social Media"><img alt="HTML Landing For Agency Specializing In Social Media" class="media-image lazyload noversion" data-src="https://images01.nicepagecdn.com/page/17/90/html-template-1790901.jpg" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" style="max-width:100%;" /></a>
+                    <a class="btn btn-default btn-sm expand-page-button pull-right page-more" href="#" data-url="https://images01.nicepagecdn.com/page/17/90/html-template-full-1790901.jpg">More ↓</a>
+            </div>
+            <div class="page-title one-row ">
+                <a href="/ht/1790901/agency-specializing-in-social-media-html-template" title="HTML Landing For Agency Specializing In Social Media">HTML Landing For Agency Specializing In Social Media</a>
+                            </div>
+        </li>
+        <li class="thumbnail-item title-one-row" data-height="0" style="width: 260px; height: 209px;" 
+            data-like = 9 >
+            <div class="page-image">
+                <a class="thumbnail" href="/ht/48521/nations-top-in-design-and-architecture-html-template" style="width:260px; height: 159px;" title="Nations Top In Design And Architecture - HTML Website Template"><img alt="Nations Top In Design And Architecture - HTML Website Template" class="media-image lazyload noversion" data-src="https://images01.nicepagecdn.com/page/48/52/html-template-48521.jpg" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" style="max-width:100%;" /></a>
+            </div>
+            <div class="page-title one-row ">
+                <a href="/ht/48521/nations-top-in-design-and-architecture-html-template" title="Nations Top In Design And Architecture - HTML Website Template">Nations Top In Design And Architecture - HTML Website Template</a>
+                            </div>
+        </li>
+        <li class="thumbnail-item title-one-row" data-height="0" style="width: 260px; height: 216px;" 
+            data-like = 930 data-set = 32>
+            <div class="page-image">
+                <a class="thumbnail" href="/ht/379248/unique-photography-html-template" style="width:260px; height: 166px;" title="Unique Photography - Web Development Template"><img alt="Unique Photography - Web Development Template" class="media-image lazyload noversion" data-src="https://images01.nicepagecdn.com/page/37/92/html-template-379248.jpg" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" style="max-width:100%;" /></a>
+            </div>
+            <div class="page-title one-row ">
+                <a href="/ht/379248/unique-photography-html-template" title="Unique Photography - Web Development Template">Unique Photography - Web Development Template</a>
+                            </div>
+        </li>
+        <li class="thumbnail-item title-one-row" data-height="0" style="width: 260px; height: 192px;" 
+            data-like = 2940 >
+            <div class="page-image">
+                <a class="thumbnail" href="/ht/1056330/landscape-slider-html-template" style="width:260px; height: 142px;" title="Landscape Slider - HTML Website"><img alt="Landscape Slider - HTML Website" class="media-image lazyload noversion" data-src="https://images01.nicepagecdn.com/page/10/56/html-template-1056330.jpg" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" style="max-width:100%;" /></a>
+            </div>
+            <div class="page-title one-row ">
+                <a href="/ht/1056330/landscape-slider-html-template" title="Landscape Slider - HTML Website">Landscape Slider - HTML Website</a>
+                            </div>
+        </li>
+        <li class="thumbnail-item title-one-row" data-height="0" style="width: 260px; height: 403px;" 
+            data-like = 158 data-set = 23>
+            <div class="page-image">
+                <a class="thumbnail" href="/ht/6114249/we-create-bespoke-weddings-html-template" style="width:260px; height: 353px;" title="Design Template For We Create Bespoke Weddings"><img alt="Design Template For We Create Bespoke Weddings" class="media-image lazyload noversion" data-src="https://images01.nicepagecdn.com/page/61/14/html-template-6114249.jpg" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" style="max-width:100%;" /></a>
+            </div>
+            <div class="page-title one-row ">
+                <a href="/ht/6114249/we-create-bespoke-weddings-html-template" title="Design Template For We Create Bespoke Weddings">Design Template For We Create Bespoke Weddings</a>
+                            </div>
+        </li>
+</ul>
+
+
+                        <div class="nav-buttons">
+                                <a class="btn btn-lg btn-default" href="https://nicepage.com/html-templates?page=2" type="button">Next >></a>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    
+</div>
+
+        <div class="last-custom-block">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="seo-text-block">
+                        <h2>Responsive HTML Website Templates</h2>
+
+<p>Web design and responsive site prototyping, including eCommerce, have changed recently. The builder uses an HTML ecommerce website template for a simple landing page as a complete or fully responsive website became spread and popular. A landing page usually comes as a template demo supplied by free CSS templates or free CSS website, allowing to catch visitor's interest with various color schemes and a collection of stylish web design template and elements. And please note that most of the page templates have simple HTML. They are clean, free templates and have a live demo. You can also design an online presentation of various forms of a single page website with a click.</p>
+
+<h2>Minimalistic Website Templates</h2>
+
+<p>To start any website with an HTML template, you will need content free or premium. Some photo materials can have privacy issues, and you should learn that before using those on your page template or WordPress themes. Modern web technologies used in web templates, including HTML CSS JavaScript, and bootstrap, allow the transformation of the basic HTML page into an advanced eCommerce website system, which a business company of any industry can use. Even simple aspect uses like personal portfolio template gallery, or single page updates, blog and events, for example, for a clothing store allowing using responsive design template samples to speed up the development and stimulate creative website design progress. You can use our free HTML templates as a quick construction for email templates, suitable for an HTML email, or a website layout and page HTML based on bootstrap templates for an online store.</p>
+
+<h2>Need Free Website Templates?</h2>
+
+<p>Site templates usually provided as HTML CSS templates perfectly suit various topics like an agency template and free HTML page portfolio or WordPress website templates. It can also be a website template for food, fashion, social media, or consulting website template. You can add photos and other content and free graphics required to make responsive templates and reflect the latest digital trends. It is normal to get HTML themes free and use them as an HTML site template or a web page used as a landing page template. Some downloaded HTML landing page templates, as samples, containing photography you can use for a portfolio template. And if you add product details, you can make a clothing store template, software home, and ideal template design.</p>
+
+<h2>Simple HTML Templates</h2>
+
+<p>Today to create a great layout for personal and business use, for example, a travel, wedding, health, interior, industrial, fitness, hotel, and other categories HTML website that looks perfect, you most likely need to search for a free download of a responsive template. Usually, a minimal HTML website template is open source and can have a builder or bootstrap HTML framework from GitHub as a foundation. For professional users in design having experience, we offer a comprehensive collection of WordPress and an HTML website template featuring style presets and effects, like parallax, video, contact form elements, and services to implement any creative ideas with WordPress plugins.</p>
+
+<p>HTML website templates may have have different applications. You can get css templates free download for templates with google maps, also make an HTML website template for making other templates free. Many designers may know that there are no ways to learn how to make a CSS website and with free download for making landing page HTML template. Today many contributors deliver html code template, expecting to get feedback in return that they care and appreciate since, for many people, it may be a good start or change in their work and careers.</p>
+
+<h2>One Page Responsive HTML Templates</h2>
+
+<p>What may you also expect visiting a template download service for HTML web samples? You can also get WordPress and an HTML website template designed since free WordPress themes are usually offered together with an HTML page template. You can share your responsive template if you like. New themes are always in demand on large learning and start up communities and forum sites. Businesses prefer fresh projects that they can get from HTML theme download resources. And for some specific uses like, for example, admin templates, simple HTML templates have big interest and marketing value. And HTML website template with CSS templates may include free Bootstrap templates for building HTML5 site templates.</p>
+
+<p>If you need a free website template, for example, real estate HTML template, HTML creative agency template for a bootstrap 4 website template or bootstrap 4 template, you can build a page HTML template. There are many lms online courses on how to make HTML design templates. However, no kits are providing a skip to  main content for an online course. You can start with a website template HTML builder to make a multipurpose html website with templates html5 based and study a tutorial how to design HTML website only then skip to main.</p>
+
+<p>You may also be interested in
+<a href="/templates">Templates</a>,
+<a href="/html5-template">HTML5 Template</a>,
+<a href="/css-templates">Cascading Style Sheets Templates</a>,
+<a href="/templates">Templates</a>,
+<a href="/wysiwyg-html-editor">WYSIWYG HTML Editor</a></p>
+
+<!--br/>
+<a href="/html-website-templates">HTML Website Templates</a>,
+<a href="/basic-html-template">Basic HTML Template</a>, and
+<a href="/simple-html-template">Simple HTML Template</a-->
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+            </section>
+            <div id="push"></div>
+        </div>
+
+        <div class="footer">
+
+<div class="footer-top">
+    <div class="container">
+        <style>
+.footer-top a {
+    color: #ddd !important;
+    font-size: 16px;
+}
+</style>
+
+<div class="row">
+            <div class="col-md-2 col-sm-6 col-xs-12">
+                <h6>Company</h6>
+                <ul>
+                    <li><a href="/Terms">Terms of Use</a></li>
+                    <li><a href="/Privacy">Privacy Policy</a></li>
+                    <li><a href="/Agreement">License Agreement</a></li>
+                    <li><a href="/About">About Us</a></li>
+                    <li><a href="/partners">Partners</a></li>
+                    <li><a href="/Abuse">Abuse</a></li>
+                    <li><a href="/Forum/Topic/Create">Contact Support</a></li>
+                </ul>
+            </div>
+            <div class="col-md-2 col-sm-6 col-xs-12">
+                <h6>Product</h6>
+                <ul>
+                    <li><a href="/doc/frequently-asked-questions-16656">FAQ</a></li>
+                    <li><a href="/download">Download</a></li>
+                    <li><a href="/features">400+ Features</a></li>
+                    <li><a href="/affiliates">Affiliates</a></li>
+                    <li><a href="/doc">Documentation</a></li>
+                    <li><a href="/forum">Forum</a></li>
+                    <li><a href="/blog">Blog</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <h6><a href="/templates">Themes & Templates</a></h6>
+                <ul>
+                    <li><a href="/website-templates">Website Templates</a></li>
+                    <li><a href="/wordpress-themes">WordPress Themes</a></li>
+                    <li><a href="/html-templates">HTML Templates</a></li>
+                    <li><a href="/css-templates">CSS Templates</a></li>
+                    <li><a href="/joomla-templates">Joomla Templates</a></li>
+                    <li><a href="/html5-template">HTML5 Templates</a></li>
+                    <li><a href="/one-page-template">One Page Templates</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <h6>Nicepage</h6>
+                <ul>
+                    <li><a href="/website-builder">Website Builder</a></li>
+                    <li><a href="/html">HTML Website Builder</a></li>
+                    <li><a href="/wordpress">WordPress Website Builder</a></li>
+                    <li><a href="/joomla">Joomla Page Builder</a></li>
+                    <li><a href="/wysiwyg-html-editor">WYSIWYG HTML Editor</a></li>
+                    <li><a href="/static-site-generator">Static Site Generator</a></li>
+                    <li><a href="/html-code">HTML Code Generator</a></li>
+                </ul>
+            </div>
+            <div class="col-md-2 col-sm-6 col-xs-12">
+                <h6>Web Design</h6>
+                <ul>
+                    <li><a href="/website-design">Website Designs</a></li>
+                    <li><a href="/web-page-design">Web Page Designs</a></li>
+                    <li><a href="/ecommerce-templates">eCommerce Designs</a></li>
+                    <li><a href="/landing-page">Landing Pages</a></li>
+                    <li><a href="/homepage-design">Homepage Designs</a></li>
+                    <li><a href="/website-mockup">Website  Mockup</a></li>
+                </ul>
+            </div>
+
+            
+        </div>
+    </div>
+</div>
+<div class="footer-bottom">
+    <div class="container">
+        <div class="row">
+            <div id="footer-links" class="footer-inline col-sm-12 pull-right">
+                <div style="white-space: nowrap; float: left; text-align: left;">
+    <div class="row">
+        <div class="col-sm-3">
+        	<a href="https://facebook.com/nicepageapp" rel="noreferrer" target="_blank" style="margin-right: 10px;">
+        	<svg x="0px" y="0px" viewBox="0 0 112.2 112.2" style="width: 24px;">
+        	<circle fill="#3B5998" cx="56.1" cy="56.1" r="55"></circle>
+        	<path fill="#FFFFFF" d="M73.5,31.6h-9.1c-1.4,0-3.6,0.8-3.6,3.9v8.5h12.6L72,58.3H60.8v40.8H43.9V58.3h-8V43.9h8v-9.2
+        	c0-6.7,3.1-17,17-17h12.5v13.9H73.5z"></path>
+        	</svg><span style="position: relative;top: -7px;margin-left: 5px;">Facebook</span></a>
+        </div>
+        <div class="col-sm-3">
+			<a href="https://twitter.com/NicepageApp" rel="noreferrer" target="_blank" style="margin-right: 10px;">
+			<svg x="0px" y="0px" viewBox="0 0 112.2 112.2" style="width: 24px;">
+			<circle fill="#55ACEE" class="st0" cx="56.1" cy="56.1" r="55"/>
+			<path fill="#FFFFFF" d="M83.8,47.3c0,0.6,0,1.2,0,1.7c0,17.7-13.5,38.2-38.2,38.2C38,87.2,31,85,25,81.2c1,0.1,2.1,0.2,3.2,0.2
+				c6.3,0,12.1-2.1,16.7-5.7c-5.9-0.1-10.8-4-12.5-9.3c0.8,0.2,1.7,0.2,2.5,0.2c1.2,0,2.4-0.2,3.5-0.5c-6.1-1.2-10.8-6.7-10.8-13.1
+				c0-0.1,0-0.1,0-0.2c1.8,1,3.9,1.6,6.1,1.7c-3.6-2.4-6-6.5-6-11.2c0-2.5,0.7-4.8,1.8-6.7c6.6,8.1,16.5,13.5,27.6,14
+				c-0.2-1-0.3-2-0.3-3.1c0-7.4,6-13.4,13.4-13.4c3.9,0,7.3,1.6,9.8,4.2c3.1-0.6,5.9-1.7,8.5-3.3c-1,3.1-3.1,5.8-5.9,7.4
+				c2.7-0.3,5.3-1,7.7-2.1C88.7,43,86.4,45.4,83.8,47.3z"/>
+        	</svg><span style="position: relative;top: -7px;margin-left: 5px;">Twitter</span></a>
+        </div>
+        <div class="col-sm-3">
+        	<a href="https://youtube.com/nicepage?sub_confirmation=1" rel="noreferrer" target="_blank" style="margin-right: 10px;">
+        	<svg x="0px" y="0px" viewBox="0 0 112.2 112.2" style="width: 24px;">
+        	<circle fill="#D22215" cx="56.1" cy="56.1" r="55"></circle>
+        	<path fill="#FFFFFF" d="M74.9,33.3H37.3c-7.4,0-13.4,6-13.4,13.4v18.8c0,7.4,6,13.4,13.4,13.4h37.6c7.4,0,13.4-6,13.4-13.4V46.7
+        	C88.3,39.3,82.3,33.3,74.9,33.3L74.9,33.3z M65.9,57l-17.6,8.4c-0.5,0.2-1-0.1-1-0.6V47.5c0-0.5,0.6-0.9,1-0.6l17.6,8.9
+        	C66.4,56,66.4,56.8,65.9,57L65.9,57z"></path>
+        	</svg><span style="position: relative;top: -7px;margin-left: 5px;">YouTube</span></a>
+        </div>
+        <div class="col-sm-3">
+        	<a href="https://www.pinterest.com/nicepagecom/pins" rel="noreferrer" target="_blank" style="margin-right: 10px;">
+        	<svg x="0px" y="0px" viewBox="0 0 112.2 112.2" style="width: 24px;">
+        	<circle fill="#CB2027" cx="56.1" cy="56.1" r="55"></circle>
+        	<path fill="#FFFFFF" d="M61.1,76.9c-4.7-0.3-6.7-2.7-10.3-5c-2,10.7-4.6,20.9-11.9,26.2c-2.2-16.1,3.3-28.2,5.9-41
+        	c-4.4-7.5,0.6-22.5,9.9-18.8c11.6,4.6-10,27.8,4.4,30.7C74.2,72,80.3,42.8,71,33.4C57.5,19.6,31.7,33,34.9,52.6
+        	c0.8,4.8,5.8,6.2,2,12.9c-8.7-1.9-11.2-8.8-10.9-17.8C26.5,32.8,39.3,22.5,52.2,21c16.3-1.9,31.6,5.9,33.7,21.2
+        	C88.2,59.5,78.6,78.2,61.1,76.9z"></path>
+        	</svg><span style="position: relative;top: -7px;margin-left: 5px;">Pinterest</span></a>
+    	</div>
+    </div>
+</div>
+<!--    
+<ul class="u-unstyled">
+	<li><a href="/pricing">Premium</a></li>
+	<li>|</li>
+	<li><a href="/affiliates">Affiliates</a></li>
+	<li>|</li>
+	<li><a href="/Forum/Topic/Create?private=1">Contact Support</a></li>
+	<li>|</li>
+	<li><a href="/About">About</a></li>
+	<li>|</li>
+	<li><a href="/Terms">Terms</a></li>
+	<li>|</li>
+	<li><a href="/Privacy">Privacy</a></li>
+	<li>|</li>
+	<li><a href="/Agreement">License</a></li>
+</ul>
+-->
+                <div class="copy">&copy; 2024 Nicepage Free Website Builder Software - All Rights Reserved</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+        </div>
+    </body>
+</html>
+
+
